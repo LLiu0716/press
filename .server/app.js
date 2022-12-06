@@ -85,10 +85,10 @@ const pagesComponents = {
   "v-1ff71564": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$e;
   })),
-  "v-ad9a6986": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+  "v-7d07e043": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$c;
   })),
-  "v-7d07e043": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+  "v-ad9a6986": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$a;
   })),
   "v-3706649a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
@@ -117,10 +117,10 @@ const pagesData$1 = {
   "v-1ff71564": () => Promise.resolve().then(function() {
     return index_html$2;
   }).then(({ data: data2 }) => data2),
-  "v-ad9a6986": () => Promise.resolve().then(function() {
+  "v-7d07e043": () => Promise.resolve().then(function() {
     return index_html$1;
   }).then(({ data: data2 }) => data2),
-  "v-7d07e043": () => Promise.resolve().then(function() {
+  "v-ad9a6986": () => Promise.resolve().then(function() {
     return index_html;
   }).then(({ data: data2 }) => data2),
   "v-3706649a": () => Promise.resolve().then(function() {
@@ -253,7 +253,7 @@ const resolveRouteLocale = (locales2, routePath) => resolveLocalePath(locales2, 
 const siteData$1 = {
   "base": "/press/",
   "lang": "zh-CN",
-  "title": "lliu0716 \u7684\u4E2A\u4EBA\u535A\u5BA2",
+  "title": "liu0716 \u7684\u4E2A\u4EBA\u535A\u5BA2",
   "description": "",
   "head": [
     [
@@ -289,7 +289,14 @@ const siteData$1 = {
       "meta",
       {
         "name": "og:title",
-        "content": "lliu0716 \u7684\u4E2A\u4EBA\u535A\u5BA2"
+        "content": "liu0716 \u7684\u4E2A\u4EBA\u535A\u5BA2"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "url",
+        "content": "https://liu0716.gitee.io/press/"
       }
     ],
     [
@@ -1030,13 +1037,6 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "Vue",
-    "headers": [],
-    "path": "/web/vue/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E",
     "headers": [
       {
@@ -1109,6 +1109,13 @@ const searchIndex$1 = [
       }
     ],
     "path": "/web/tool/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue",
+    "headers": [],
+    "path": "/web/vue/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1465,15 +1472,15 @@ const clientAppSetups = [
   clientAppSetup3
 ];
 const routeItems = [
-  ["v-8daa1a0e", "/", { "title": "lliu0716" }, ["/index.html", "/README.md"]],
+  ["v-8daa1a0e", "/", { "title": "liu0716" }, ["/index.html", "/README.md"]],
   ["v-149c3324", "/game/", { "title": "\u4F7F\u7528 vue3 \u5B9E\u73B0\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7" }, ["/game/index.html", "/game/README.md"]],
   ["v-14b0a7d7", "/home/", { "title": "OtherComponent" }, ["/home/index.html", "/home/README.md"]],
   ["v-15051314", "/node/", { "title": "node" }, ["/node/index.html", "/node/README.md"]],
   ["v-744e6dd4", "/web/", { "title": "\u524D\u7AEF\u6280\u672F\u5206\u4EAB" }, ["/web/index.html", "/web/README.md"]],
   ["v-178fb966", "/node/koa/", { "title": "koa" }, ["/node/koa/index.html", "/node/koa/README.md"]],
   ["v-1ff71564", "/web/react/", { "title": "React" }, ["/web/react/index.html", "/web/react/README.md"]],
-  ["v-ad9a6986", "/web/vue/", { "title": "Vue" }, ["/web/vue/index.html", "/web/vue/README.md"]],
   ["v-7d07e043", "/web/tool/", { "title": "\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E" }, ["/web/tool/index.html", "/web/tool/README.md"]],
+  ["v-ad9a6986", "/web/vue/", { "title": "Vue" }, ["/web/vue/index.html", "/web/vue/README.md"]],
   ["v-3706649a", "/404.html", { "title": "" }, ["/404"]]
 ];
 const pagesRoutes = routeItems.reduce((result, [name, path, meta, redirects]) => {
@@ -2497,25 +2504,6 @@ var index_html$e = /* @__PURE__ */ Object.freeze({
 const _sfc_main$s = {};
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<p${serverRenderer.ssrRenderAttrs(_attrs)}><a href="https://cn.vuejs.org/" target="_blank" rel="noopener noreferrer">Vue \u4E2D\u6587\u5B98\u7F51`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></p>`);
-}
-const _sfc_setup$s = _sfc_main$s.setup;
-_sfc_main$s.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/index.html.vue");
-  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
-};
-var index_html$b = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$3]]);
-var index_html$c = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": index_html$b
-});
-const _sfc_main$r = {};
-function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
-  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E" aria-hidden="true">#</a> \u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E</h1><blockquote><p>\u4EE3\u7801\u89C4\u8303\u7EDF\u4E00\u5BF9\u4E8E\u591A\u4EBA\u5F00\u53D1\u7684\u9879\u76EE\u597D\u5904\u975E\u5E38\u591A</p><p>\u54EA\u6015\u662F\u81EA\u5DF1\u4E00\u4E2A\u4EBA\u5F00\u53D1, \u4E5F\u80FD\u5728\u5F88\u4E45\u540E\u91CD\u65B0\u6253\u5F00\u4EE3\u7801\u65F6\u7684\u683C\u5F0F\u8FD8\u662F\u5F53\u5E74\u7684\u6837\u5B50</p><p>\u89C4\u8303\u5316\u5DE5\u5177\u975E\u5E38\u591A, \u4E5F\u6709\u4E2A\u5F88\u73B0\u5B9E\u7684\u95EE\u9898, \u7248\u672C, \u968F\u7740\u65F6\u95F4\u7684\u63A8\u79FB, \u4F1A\u51FA\u73B0\u591A\u4E2A\u4E0D\u540C\u7684\u7248\u672C</p><p>\u6709\u4E9B\u914D\u7F6E\u6CA1\u53D8, \u6709\u4E9B\u5374\u53D8\u7684\u4E0D\u4E00\u6837\u4E86</p><p>\u5F53\u524D\u662F 2022/08/19 13:46, \u8BB0\u5F55\u81EA\u5DF1\u7684\u914D\u7F6E\u8FC7\u7A0B</p></blockquote><h2 id="\u7528\u5230\u7684\u5DE5\u5177" tabindex="-1"><a class="header-anchor" href="#\u7528\u5230\u7684\u5DE5\u5177" aria-hidden="true">#</a> \u7528\u5230\u7684\u5DE5\u5177</h2><ul><li><code>typescript</code></li><li><code>eslint</code></li><li><code>prettier</code></li><li><code>husky</code></li><li><code>lint-staged</code></li><li><code>commitlint</code></li><li><code>committzen</code></li></ul><h2 id="\u751F\u6210package-json\u6587\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u751F\u6210package-json\u6587\u4EF6" aria-hidden="true">#</a> \u751F\u6210<code>package.json</code>\u6587\u4EF6</h2><blockquote><p>\u76F4\u63A5\u5199, \u6216\u8005\u4F7F\u7528\u547D\u4EE4\u76F4\u63A5\u751F\u6210, \u8FD9\u91CC\u4F7F\u7528\u547D\u4EE4\u751F\u6210\u4E00\u4E2A\u9ED8\u8BA4\u914D\u7F6E</p></blockquote><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> init -y
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u91CC\u6DFB\u52A0 <code>&quot;type&quot;: &quot;module&quot;</code> \u5230<code>package.json</code>\u91CC\u9762, \u4F7F\u7528 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Modules" target="_blank" rel="noopener noreferrer">es \u6A21\u5757`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -2702,10 +2690,29 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><ol start="4"><li>\u4F7F\u7528\u547D\u4EE4\u5E76\u586B\u5199\u76F8\u5BF9\u5E94\u7684\u53C2\u6570, \u5982\u540C\u90AE\u4EF6\u822C\u586B\u5199 <code>commit</code></li></ol><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> run commit
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><!--]-->`);
 }
+const _sfc_setup$s = _sfc_main$s.setup;
+_sfc_main$s.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/tool/index.html.vue");
+  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
+};
+var index_html$b = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$3]]);
+var index_html$c = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": index_html$b
+});
+const _sfc_main$r = {};
+function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<p${serverRenderer.ssrRenderAttrs(_attrs)}><a href="https://cn.vuejs.org/" target="_blank" rel="noopener noreferrer">Vue \u4E2D\u6587\u5B98\u7F51`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p>`);
+}
 const _sfc_setup$r = _sfc_main$r.setup;
 _sfc_main$r.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/tool/index.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/index.html.vue");
   return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
 };
 var index_html$9 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$2]]);
@@ -2732,18 +2739,18 @@ var _404_html$2 = /* @__PURE__ */ Object.freeze({
 const data$9 = {
   "key": "v-8daa1a0e",
   "path": "/",
-  "title": "lliu0716",
+  "title": "liu0716",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "lliu0716",
+    "title": "liu0716",
     "description": "\u524D\u7AEF\u6280\u5DE7\u5206\u4EAB",
     "home": true,
     "heroImage": "/favicon.svg",
     "actions": [
       {
         "text": "\u6700\u65B0\u535A\u5BA2",
-        "link": "/game",
+        "link": "/web",
         "type": "primary"
       },
       {
@@ -2753,7 +2760,7 @@ const data$9 = {
       },
       {
         "text": "GitHub",
-        "link": "https://github.com/liu0716",
+        "link": "https://github.com/lliu0716",
         "type": "secondary"
       }
     ],
@@ -2946,26 +2953,6 @@ var index_html$2 = /* @__PURE__ */ Object.freeze({
   data: data$3
 });
 const data$2 = {
-  "key": "v-ad9a6986",
-  "path": "/web/vue/",
-  "title": "Vue",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "Vue",
-    "description": "Vue"
-  },
-  "excerpt": "",
-  "headers": [],
-  "git": {},
-  "filePathRelative": "web/vue/README.md"
-};
-var index_html$1 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$2
-});
-const data$1 = {
   "key": "v-7d07e043",
   "path": "/web/tool/",
   "title": "\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E",
@@ -3048,6 +3035,26 @@ const data$1 = {
   ],
   "git": {},
   "filePathRelative": "web/tool/README.md"
+};
+var index_html$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$2
+});
+const data$1 = {
+  "key": "v-ad9a6986",
+  "path": "/web/vue/",
+  "title": "Vue",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "Vue",
+    "description": "Vue"
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {},
+  "filePathRelative": "web/vue/README.md"
 };
 var index_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,

@@ -6970,36 +6970,36 @@ const pagesComponents = {
   ), true ? ["assets/index.html.998ff25d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-149c3324": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-149c3324" */
-    "./index.html.42bb537c.js"
-  ), true ? ["assets/index.html.42bb537c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.845291b3.js"
+  ), true ? ["assets/index.html.845291b3.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-14b0a7d7": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-14b0a7d7" */
-    "./index.html.26405acc.js"
+    "./index.html.ecbf5272.js"
   ), true ? [] : void 0)),
   "v-15051314": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-15051314" */
-    "./index.html.a507ad5f.js"
+    "./index.html.b305fe91.js"
   ), true ? [] : void 0)),
   "v-744e6dd4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-744e6dd4" */
-    "./index.html.b4ec68dd.js"
+    "./index.html.75235a62.js"
   ), true ? [] : void 0)),
   "v-178fb966": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-178fb966" */
-    "./index.html.e77d9dad.js"
-  ), true ? ["assets/index.html.e77d9dad.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.956ea878.js"
+  ), true ? ["assets/index.html.956ea878.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-1ff71564": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-1ff71564" */
-    "./index.html.4d9709a1.js"
-  ), true ? ["assets/index.html.4d9709a1.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
-  "v-ad9a6986": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-ad9a6986" */
-    "./index.html.7865bac8.js"
-  ), true ? ["assets/index.html.7865bac8.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.f2b58458.js"
+  ), true ? ["assets/index.html.f2b58458.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-7d07e043": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-7d07e043" */
-    "./index.html.90ff9198.js"
-  ), true ? ["assets/index.html.90ff9198.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.84258898.js"
+  ), true ? ["assets/index.html.84258898.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-ad9a6986": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-ad9a6986" */
+    "./index.html.8c02d7a7.js"
+  ), true ? ["assets/index.html.8c02d7a7.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
     "./404.html.37b0c78d.js"
@@ -7008,7 +7008,7 @@ const pagesComponents = {
 const pagesData$1 = {
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html.e62a59fd.js"
+    "./index.html.53b4606b.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-149c3324": () => __vitePreload(() => import(
     /* webpackChunkName: "v-149c3324" */
@@ -7034,13 +7034,13 @@ const pagesData$1 = {
     /* webpackChunkName: "v-1ff71564" */
     "./index.html.989ff91d.js"
   ), true ? [] : void 0).then(({ data }) => data),
-  "v-ad9a6986": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-ad9a6986" */
-    "./index.html.b832d2a4.js"
-  ), true ? [] : void 0).then(({ data }) => data),
   "v-7d07e043": () => __vitePreload(() => import(
     /* webpackChunkName: "v-7d07e043" */
     "./index.html.d9f78726.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-ad9a6986": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-ad9a6986" */
+    "./index.html.b832d2a4.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-3706649a": () => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
@@ -7170,7 +7170,7 @@ const resolveRouteLocale = (locales2, routePath) => resolveLocalePath(locales2, 
 const siteData$1 = {
   "base": "/press/",
   "lang": "zh-CN",
-  "title": "lliu0716 \u7684\u4E2A\u4EBA\u535A\u5BA2",
+  "title": "liu0716 \u7684\u4E2A\u4EBA\u535A\u5BA2",
   "description": "",
   "head": [
     [
@@ -7206,7 +7206,14 @@ const siteData$1 = {
       "meta",
       {
         "name": "og:title",
-        "content": "lliu0716 \u7684\u4E2A\u4EBA\u535A\u5BA2"
+        "content": "liu0716 \u7684\u4E2A\u4EBA\u535A\u5BA2"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "url",
+        "content": "https://liu0716.gitee.io/press/"
       }
     ],
     [
@@ -7330,12 +7337,12 @@ Content.props = {
 const layoutComponents = {
   "404": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-404" */
-    "./404.7d1e6cf1.js"
+    "./404.72dcec08.js"
   ), true ? [] : void 0)),
   "Layout": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-Layout" */
-    "./Layout.f8dfab2c.js"
-  ), true ? ["assets/Layout.f8dfab2c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))
+    "./Layout.aafdbb24.js"
+  ), true ? ["assets/Layout.aafdbb24.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))
 };
 const Vuepress = defineComponent({
   name: "Vuepress",
@@ -8578,7 +8585,7 @@ var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
   };
 });
 var clientAppEnhance4 = ({ app }) => {
-  app.component("Game", defineAsyncComponent(() => __vitePreload(() => import("./Game.fe4d73d9.js"), true ? ["assets/Game.fe4d73d9.js","assets/Mine.654fba2a.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home.90ee1619.js"), true ? ["assets/Home.90ee1619.js","assets/axios.755e13ab.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList.b56c7e8f.js"), true ? [] : void 0))), app.component("Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine.654fba2a.js"), true ? ["assets/Mine.654fba2a.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent.dbb79ffa.js"), true ? ["assets/OtherComponent.dbb79ffa.js","assets/axios.755e13ab.js"] : void 0)));
+  app.component("Game", defineAsyncComponent(() => __vitePreload(() => import("./Game.96744864.js"), true ? ["assets/Game.96744864.js","assets/Mine.ba66b0ec.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home.3376d10c.js"), true ? ["assets/Home.3376d10c.js","assets/axios.755e13ab.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList.5779b1c5.js"), true ? [] : void 0))), app.component("Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine.ba66b0ec.js"), true ? ["assets/Mine.ba66b0ec.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent.24e04f03.js"), true ? ["assets/OtherComponent.24e04f03.js","assets/axios.755e13ab.js"] : void 0)));
 };
 const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
   const onKeydown = (event) => {
@@ -8692,13 +8699,6 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "Vue",
-    "headers": [],
-    "path": "/web/vue/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E",
     "headers": [
       {
@@ -8771,6 +8771,13 @@ const searchIndex$1 = [
       }
     ],
     "path": "/web/tool/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue",
+    "headers": [],
+    "path": "/web/vue/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -9463,15 +9470,15 @@ const clientAppSetups = [
   clientAppSetup3
 ];
 const routeItems = [
-  ["v-8daa1a0e", "/", { "title": "lliu0716" }, ["/index.html", "/README.md"]],
+  ["v-8daa1a0e", "/", { "title": "liu0716" }, ["/index.html", "/README.md"]],
   ["v-149c3324", "/game/", { "title": "\u4F7F\u7528 vue3 \u5B9E\u73B0\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7" }, ["/game/index.html", "/game/README.md"]],
   ["v-14b0a7d7", "/home/", { "title": "OtherComponent" }, ["/home/index.html", "/home/README.md"]],
   ["v-15051314", "/node/", { "title": "node" }, ["/node/index.html", "/node/README.md"]],
   ["v-744e6dd4", "/web/", { "title": "\u524D\u7AEF\u6280\u672F\u5206\u4EAB" }, ["/web/index.html", "/web/README.md"]],
   ["v-178fb966", "/node/koa/", { "title": "koa" }, ["/node/koa/index.html", "/node/koa/README.md"]],
   ["v-1ff71564", "/web/react/", { "title": "React" }, ["/web/react/index.html", "/web/react/README.md"]],
-  ["v-ad9a6986", "/web/vue/", { "title": "Vue" }, ["/web/vue/index.html", "/web/vue/README.md"]],
   ["v-7d07e043", "/web/tool/", { "title": "\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E" }, ["/web/tool/index.html", "/web/tool/README.md"]],
+  ["v-ad9a6986", "/web/vue/", { "title": "Vue" }, ["/web/vue/index.html", "/web/vue/README.md"]],
   ["v-3706649a", "/404.html", { "title": "" }, ["/404"]]
 ];
 const pagesRoutes = routeItems.reduce((result, [name, path, meta, redirects]) => {
