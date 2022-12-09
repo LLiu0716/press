@@ -6970,36 +6970,36 @@ const pagesComponents = {
   ), true ? ["assets/index.html.998ff25d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-149c3324": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-149c3324" */
-    "./index.html.7d3daf66.js"
-  ), true ? ["assets/index.html.7d3daf66.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.0f8a8c29.js"
+  ), true ? ["assets/index.html.0f8a8c29.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-14b0a7d7": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-14b0a7d7" */
-    "./index.html.1e241a4c.js"
+    "./index.html.244d8cbf.js"
   ), true ? [] : void 0)),
   "v-15051314": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-15051314" */
-    "./index.html.9771ef64.js"
+    "./index.html.c3d88465.js"
   ), true ? [] : void 0)),
   "v-744e6dd4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-744e6dd4" */
-    "./index.html.70ee3cb1.js"
+    "./index.html.b755e67c.js"
   ), true ? [] : void 0)),
   "v-178fb966": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-178fb966" */
-    "./index.html.146f4f74.js"
-  ), true ? ["assets/index.html.146f4f74.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.274435b5.js"
+  ), true ? ["assets/index.html.274435b5.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-1ff71564": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-1ff71564" */
-    "./index.html.50e9883f.js"
-  ), true ? ["assets/index.html.50e9883f.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.2e135432.js"
+  ), true ? ["assets/index.html.2e135432.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-7d07e043": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-7d07e043" */
-    "./index.html.6a96b0bf.js"
-  ), true ? ["assets/index.html.6a96b0bf.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.0e1525b6.js"
+  ), true ? ["assets/index.html.0e1525b6.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-ad9a6986": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-ad9a6986" */
-    "./index.html.4b2f7a18.js"
-  ), true ? ["assets/index.html.4b2f7a18.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.42f1e573.js"
+  ), true ? ["assets/index.html.42f1e573.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
     "./404.html.37b0c78d.js"
@@ -7178,7 +7178,7 @@ const siteData$1 = {
       {
         "type": "image/svg",
         "rel": "icon",
-        "href": "./favicon.svg"
+        "href": "/press/favicon.svg"
       }
     ],
     [
@@ -7337,12 +7337,12 @@ Content.props = {
 const layoutComponents = {
   "404": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-404" */
-    "./404.0b53d48d.js"
+    "./404.3f5ac1ab.js"
   ), true ? [] : void 0)),
   "Layout": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-Layout" */
-    "./Layout.15aae12b.js"
-  ), true ? ["assets/Layout.15aae12b.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))
+    "./Layout.547b3800.js"
+  ), true ? ["assets/Layout.547b3800.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))
 };
 const Vuepress = defineComponent({
   name: "Vuepress",
@@ -8585,7 +8585,7 @@ var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
   };
 });
 var clientAppEnhance4 = ({ app }) => {
-  app.component("Game", defineAsyncComponent(() => __vitePreload(() => import("./Game.d90c4227.js"), true ? ["assets/Game.d90c4227.js","assets/Mine.7baa7979.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home.0500b8b5.js"), true ? ["assets/Home.0500b8b5.js","assets/axios.755e13ab.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList.bb5cf4b9.js"), true ? [] : void 0))), app.component("Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine.7baa7979.js"), true ? ["assets/Mine.7baa7979.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent.fbd9ee1a.js"), true ? ["assets/OtherComponent.fbd9ee1a.js","assets/axios.755e13ab.js"] : void 0)));
+  app.component("Game", defineAsyncComponent(() => __vitePreload(() => import("./Game.52e40ae0.js"), true ? ["assets/Game.52e40ae0.js","assets/Mine.41b1876d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home.2ca1f833.js"), true ? ["assets/Home.2ca1f833.js","assets/axios.755e13ab.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList.00724690.js"), true ? [] : void 0))), app.component("Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine.41b1876d.js"), true ? ["assets/Mine.41b1876d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent.a588930c.js"), true ? ["assets/OtherComponent.a588930c.js","assets/axios.755e13ab.js"] : void 0)));
 };
 const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
   const onKeydown = (event) => {

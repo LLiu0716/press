@@ -261,7 +261,7 @@ const siteData$1 = {
       {
         "type": "image/svg",
         "rel": "icon",
-        "href": "./favicon.svg"
+        "href": "/press/favicon.svg"
       }
     ],
     [
