@@ -65,31 +65,37 @@ const ClientOnly = vue.defineComponent({
 });
 const pagesComponents = {
   "v-8daa1a0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$n;
+    return index_html$s;
   })),
   "v-149c3324": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$l;
+    return index_html$q;
   })),
   "v-14b0a7d7": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$j;
+    return index_html$o;
+  })),
+  "v-14e927a4": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return index_html$n;
   })),
   "v-15051314": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$i;
+    return index_html$m;
   })),
   "v-744e6dd4": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$h;
+    return index_html$l;
+  })),
+  "v-3df50e69": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return index_html$k;
   })),
   "v-178fb966": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$g;
+    return index_html$i;
   })),
   "v-1ff71564": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$e;
+    return index_html$g;
   })),
   "v-7d07e043": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$c;
+    return index_html$e;
   })),
   "v-ad9a6986": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$a;
+    return index_html$c;
   })),
   "v-3706649a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _404_html$2;
@@ -97,18 +103,24 @@ const pagesComponents = {
 };
 const pagesData$1 = {
   "v-8daa1a0e": () => Promise.resolve().then(function() {
-    return index_html$8;
+    return index_html$a;
   }).then(({ data: data2 }) => data2),
   "v-149c3324": () => Promise.resolve().then(function() {
-    return index_html$7;
+    return index_html$9;
   }).then(({ data: data2 }) => data2),
   "v-14b0a7d7": () => Promise.resolve().then(function() {
-    return index_html$6;
+    return index_html$8;
+  }).then(({ data: data2 }) => data2),
+  "v-14e927a4": () => Promise.resolve().then(function() {
+    return index_html$7;
   }).then(({ data: data2 }) => data2),
   "v-15051314": () => Promise.resolve().then(function() {
-    return index_html$5;
+    return index_html$6;
   }).then(({ data: data2 }) => data2),
   "v-744e6dd4": () => Promise.resolve().then(function() {
+    return index_html$5;
+  }).then(({ data: data2 }) => data2),
+  "v-3df50e69": () => Promise.resolve().then(function() {
     return index_html$4;
   }).then(({ data: data2 }) => data2),
   "v-178fb966": () => Promise.resolve().then(function() {
@@ -471,6 +483,10 @@ const themeData$1 = {
       ]
     },
     {
+      "text": "\u524D\u7AEF\u4E0E\u604B\u7231",
+      "link": "/love"
+    },
+    {
       "text": "\u6E38\u620F\u5206\u4EAB",
       "link": "/game"
     }
@@ -487,6 +503,10 @@ const themeData$1 = {
     {
       "text": "node\u5206\u4EAB",
       "link": "/node"
+    },
+    {
+      "text": "\u524D\u7AEF\u4E0E\u604B\u7231",
+      "link": "/love"
     },
     {
       "text": "\u6E38\u620F\u5206\u4EAB",
@@ -554,7 +574,7 @@ var clientAppEnhance2 = defineClientAppEnhance(({ app }) => {
     }
   });
 });
-const _sfc_main$C = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$E = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   props: {
     type: {
@@ -588,11 +608,11 @@ const _sfc_main$C = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$C = _sfc_main$C.setup;
-_sfc_main$C.setup = (props, ctx) => {
+const _sfc_setup$E = _sfc_main$E.setup;
+_sfc_main$E.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../node_modules/@vuepress/theme-default/lib/client/components/global/Badge.vue");
-  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
+  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
 };
 var CodeGroup = vue.defineComponent({
   name: "CodeGroup",
@@ -675,7 +695,7 @@ var CodeGroup = vue.defineComponent({
 const __default__$1 = vue.defineComponent({
   name: "CodeGroupItem"
 });
-const _sfc_main$B = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
+const _sfc_main$D = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
   __ssrInlineRender: true,
   props: {
     title: {
@@ -699,11 +719,11 @@ const _sfc_main$B = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadVa
     };
   }
 }));
-const _sfc_setup$B = _sfc_main$B.setup;
-_sfc_main$B.setup = (props, ctx) => {
+const _sfc_setup$D = _sfc_main$D.setup;
+_sfc_main$D.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../node_modules/@vuepress/theme-default/lib/client/components/global/CodeGroupItem.vue");
-  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
+  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
 };
 const darkModeSymbol = Symbol("");
 const useDarkMode = () => {
@@ -866,7 +886,7 @@ const resolveMultiSidebarItems = (sidebarConfig, sidebarDepth) => {
   return resolveArraySidebarItems(matchedSidebarConfig, sidebarDepth);
 };
 const useThemeLocaleData = () => useThemeLocaleData$1();
-const _sfc_main$A = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$C = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     const themeLocale = useThemeLocaleData();
@@ -886,19 +906,19 @@ const _sfc_main$A = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$A = _sfc_main$A.setup;
-_sfc_main$A.setup = (props, ctx) => {
+const _sfc_setup$C = _sfc_main$C.setup;
+_sfc_main$C.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../node_modules/@vuepress/theme-default/lib/client/components/global/ExternalLinkIcon.vue");
-  return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
+  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
 };
 var index = "";
 var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
-  app.component("Badge", _sfc_main$C);
+  app.component("Badge", _sfc_main$E);
   app.component("CodeGroup", CodeGroup);
-  app.component("CodeGroupItem", _sfc_main$B);
+  app.component("CodeGroupItem", _sfc_main$D);
   delete app._context.components.ExternalLinkIcon;
-  app.component("ExternalLinkIcon", _sfc_main$A);
+  app.component("ExternalLinkIcon", _sfc_main$C);
   app.component("NavbarSearch", () => {
     const SearchComponent = app.component("Docsearch") || app.component("SearchBox");
     if (SearchComponent) {
@@ -995,6 +1015,13 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "\u50CF\u5199\u524D\u7AEF\u4E00\u6837\u8C08\u604B\u7231",
+    "headers": [],
+    "path": "/love/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "node",
     "headers": [
       {
@@ -1019,6 +1046,38 @@ const searchIndex$1 = [
       }
     ],
     "path": "/web/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684\u4E09\u6B21\u63E1\u624B",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u65E2\u7136\u662F\u534F\u8BAE, \u53EF\u4EE5\u4E0D\u9075\u5B88\u5417?",
+        "slug": "\u65E2\u7136\u662F\u534F\u8BAE-\u53EF\u4EE5\u4E0D\u9075\u5B88\u5417",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u90A3, \u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB?",
+        "slug": "\u90A3-\u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u7136\u9E45, \u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD, \u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA",
+        "slug": "\u7136\u9E45-\u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD-\u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u9700\u8981\u6CE8\u610F\u7684\u662F",
+        "slug": "\u9700\u8981\u6CE8\u610F\u7684\u662F",
+        "children": []
+      }
+    ],
+    "path": "/love/three-way-handshake/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1475,8 +1534,10 @@ const routeItems = [
   ["v-8daa1a0e", "/", { "title": "liu0716" }, ["/index.html", "/README.md"]],
   ["v-149c3324", "/game/", { "title": "\u4F7F\u7528 vue3 \u5B9E\u73B0\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7" }, ["/game/index.html", "/game/README.md"]],
   ["v-14b0a7d7", "/home/", { "title": "OtherComponent" }, ["/home/index.html", "/home/README.md"]],
+  ["v-14e927a4", "/love/", { "title": "\u50CF\u5199\u524D\u7AEF\u4E00\u6837\u8C08\u604B\u7231" }, ["/love/index.html", "/love/README.md"]],
   ["v-15051314", "/node/", { "title": "node" }, ["/node/index.html", "/node/README.md"]],
   ["v-744e6dd4", "/web/", { "title": "\u524D\u7AEF\u6280\u672F\u5206\u4EAB" }, ["/web/index.html", "/web/README.md"]],
+  ["v-3df50e69", "/love/three-way-handshake/", { "title": "\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684\u4E09\u6B21\u63E1\u624B" }, ["/love/three-way-handshake/index.html", "/love/three-way-handshake/README.md"]],
   ["v-178fb966", "/node/koa/", { "title": "koa" }, ["/node/koa/index.html", "/node/koa/README.md"]],
   ["v-1ff71564", "/web/react/", { "title": "React" }, ["/web/react/index.html", "/web/react/README.md"]],
   ["v-7d07e043", "/web/tool/", { "title": "\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E" }, ["/web/tool/index.html", "/web/tool/README.md"]],
@@ -1583,24 +1644,24 @@ var _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$z = {};
-function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
+const _sfc_main$B = {};
+function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs) {
 }
-const _sfc_setup$z = _sfc_main$z.setup;
-_sfc_main$z.setup = (props, ctx) => {
+const _sfc_setup$B = _sfc_main$B.setup;
+_sfc_main$B.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/index.html.vue");
-  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
+  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
 };
-var index_html$m = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["ssrRender", _sfc_ssrRender$7]]);
-var index_html$n = /* @__PURE__ */ Object.freeze({
+var index_html$r = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$8]]);
+var index_html$s = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$m
+  "default": index_html$r
 });
 var index_html_vue_vue_type_style_index_0_lang = "";
-const _sfc_main$y = {};
-function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
+const _sfc_main$A = {};
+function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
   const _component_Game = vue.resolveComponent("Game");
   _push(`<!--[--><h1 id="\u4F7F\u7528-vue3-\u5B9E\u73B0\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7-\u5305\u542B\u4EE3\u7801" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528-vue3-\u5B9E\u73B0\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7-\u5305\u542B\u4EE3\u7801" aria-hidden="true">#</a> \u4F7F\u7528 vue3 \u5B9E\u73B0\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7 \u5305\u542B\u4EE3\u7801</h1><h2 id="\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7" tabindex="-1"><a class="header-anchor" href="#\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7" aria-hidden="true">#</a> \u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7</h2><ul><li>\u53F3\u952E\u627E\u51FA\u6240\u6709\u7684\u96F7\u5373\u53EF\u83B7\u80DC</li></ul><h2 id="\u63D0\u793A" tabindex="-1"><a class="header-anchor" href="#\u63D0\u793A" aria-hidden="true">#</a> \u63D0\u793A</h2><ul><li><p>\u6570\u503C\u4EE3\u8868\u5468\u56F4\u4E5D\u5BAB\u683C\u8303\u56F4\u5185\u96F7\u7684\u6570\u91CF</p></li><li><p>\u4F7F\u7528 PC \u83B7\u5F97\u66F4\u597D\u7684\u6E38\u620F\u4F53\u9A8C</p></li></ul>`);
   _push(serverRenderer.ssrRenderComponent(_component_Game, null, null, _parent));
@@ -2188,19 +2249,19 @@ p</span> <span class="token punctuation">{</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$y = _sfc_main$y.setup;
-_sfc_main$y.setup = (props, ctx) => {
+const _sfc_setup$A = _sfc_main$A.setup;
+_sfc_main$A.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/game/index.html.vue");
-  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
+  return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
 };
-var index_html$k = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["ssrRender", _sfc_ssrRender$6]]);
-var index_html$l = /* @__PURE__ */ Object.freeze({
+var index_html$p = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$7]]);
+var index_html$q = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$k
+  "default": index_html$p
 });
-const _sfc_main$x = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$z = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     vue.ref(Date());
@@ -2333,18 +2394,48 @@ const _sfc_main$x = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$x = _sfc_main$x.setup;
-_sfc_main$x.setup = (props, ctx) => {
+const _sfc_setup$z = _sfc_main$z.setup;
+_sfc_main$z.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/home/index.html.vue");
-  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
+  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
 };
-var index_html$j = /* @__PURE__ */ Object.freeze({
+var index_html$o = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _sfc_main$x
+  "default": _sfc_main$z
 });
-const _sfc_main$w = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$y = /* @__PURE__ */ vue.defineComponent({
+  __ssrInlineRender: true,
+  setup(__props) {
+    const list = [
+      {
+        id: "1",
+        name: "\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684\u4E09\u6B21\u63E1\u624B",
+        href: "three-way-handshake"
+      }
+    ];
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_LinkList = vue.resolveComponent("LinkList");
+      _push(serverRenderer.ssrRenderComponent(_component_LinkList, vue.mergeProps({
+        list,
+        "base-url": "love"
+      }, _attrs), null, _parent));
+    };
+  }
+});
+const _sfc_setup$y = _sfc_main$y.setup;
+_sfc_main$y.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/love/index.html.vue");
+  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
+};
+var index_html$n = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _sfc_main$y
+});
+const _sfc_main$x = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     const list = [
@@ -2392,18 +2483,18 @@ const _sfc_main$w = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$w = _sfc_main$w.setup;
-_sfc_main$w.setup = (props, ctx) => {
+const _sfc_setup$x = _sfc_main$x.setup;
+_sfc_main$x.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/node/index.html.vue");
-  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
+  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
 };
-var index_html$i = /* @__PURE__ */ Object.freeze({
+var index_html$m = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _sfc_main$w
+  "default": _sfc_main$x
 });
-const _sfc_main$v = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$w = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     const list = [
@@ -2455,16 +2546,32 @@ const _sfc_main$v = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
+const _sfc_setup$w = _sfc_main$w.setup;
+_sfc_main$w.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/index.html.vue");
+  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
+};
+var index_html$l = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _sfc_main$w
+});
+const _sfc_main$v = {};
+function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684-\u4E09\u6B21\u63E1\u624B" tabindex="-1"><a class="header-anchor" href="#\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684-\u4E09\u6B21\u63E1\u624B" aria-hidden="true">#</a> \u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684&quot;\u4E09\u6B21\u63E1\u624B&quot;</h1><blockquote><p>\u5565? \u4E09\u6B21\u63E1\u624B? \u8FD9\u4E0D\u662F\u4E00\u79CD\u901A\u4FE1\u534F\u8BAE\u4E48?</p></blockquote><p>\u4E09\u6B21\u63E1\u624B, \u4F5C\u4E3A\u5F00\u53D1, \u5FC5\u7136\u5F88\u719F\u6089, \u6216\u8005\u8BF4, \u9762\u8BD5\u4E5F\u4F1A\u88AB\u95EE\u5230, \u6211\u5C31\u4E0D\u590D\u8FF0\u4E86</p><p>\u90A3\u4E48, \u76F8\u4FE1\u4E86\u89E3\u4E09\u6B21\u63E1\u624B\u7684\u540C\u5B66\u90FD\u77E5\u9053, \u8FD9\u4E2A\u534F\u8BAE\u5E26\u6765\u4E86\u4EC0\u4E48\u597D\u5904, \u5982\u679C\u4F60\u4E0D\u662F\u4E00\u4E2A\u5F00\u53D1\u8005, \u4E0D\u77E5\u9053\u8FD9\u4E2A\u534F\u8BAE, \u8BF7\u81EA\u884C\u767E\u5EA6</p><h2 id="\u65E2\u7136\u662F\u534F\u8BAE-\u53EF\u4EE5\u4E0D\u9075\u5B88\u5417" tabindex="-1"><a class="header-anchor" href="#\u65E2\u7136\u662F\u534F\u8BAE-\u53EF\u4EE5\u4E0D\u9075\u5B88\u5417" aria-hidden="true">#</a> \u65E2\u7136\u662F\u534F\u8BAE, \u53EF\u4EE5\u4E0D\u9075\u5B88\u5417?</h2><p>\u7406\u8BBA\u4E0A\u53EF\u4EE5, \u53EA\u9700\u8981\u81EA\u5DF1\u53BB\u5904\u7406\u4E0D\u9075\u5B88\u5E26\u6765\u7684\u95EE\u9898</p><h2 id="\u90A3-\u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB" tabindex="-1"><a class="header-anchor" href="#\u90A3-\u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB" aria-hidden="true">#</a> \u90A3, \u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB?</h2><p>\u597D\u95EE\u9898, \u54C8\u54C8\u54C8!!</p><p>\u5B89\u5B89\u5FC3\u5FC3\u5199\u4EE3\u7801\u7684\u4F60, \u6709\u6CA1\u6709\u60F3\u8FC7, \u53BB\u8BBF\u95EE\u4E00\u4E2A\u7D20\u4E0D\u76F8\u8BC6\u7684\u540E\u53F0, \u80AF\u5B9A\u4F1A, \u90A3\u4E48\u4F1A\u5F97\u5230\u4EC0\u4E48\u7ED3\u679C\u5462? \u8FD9\u91CC\u5C31\u8981\u611F\u8C22\u4E92\u8054\u7F51\u524D\u8F88\u505A\u51FA\u7684\u8D21\u732E, \u54EA\u6015\u7D20\u4E0D\u76F8\u8BC6\u7684\u670D\u52A1\u5668, \u4E5F\u4E0D\u4F1A\u4E0D\u7406\u4F60, \u591A\u5C11\u4E5F\u4F1A\u544A\u8BC9\u4F60\u4E00\u4E9B\u4FE1\u606F, \u6839\u636E\u8FD9\u4E9B\u4FE1\u606F, \u5C31\u77E5\u9053\u95EE\u9898\u51FA\u5728\u54EA</p><h2 id="\u7136\u9E45-\u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD-\u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA" tabindex="-1"><a class="header-anchor" href="#\u7136\u9E45-\u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD-\u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA" aria-hidden="true">#</a> \u7136\u9E45, \u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD, \u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA</h2><blockquote><p>\u8FD9\u4E00\u5207\u5C31\u672A\u77E5\u4E86</p></blockquote><p>\u5F53\u7136, \u5E76\u4E0D\u662F\u771F\u7684\u672A\u77E5, \u53EA\u662F\u88AB\u5FC3\u52A8\u7684\u4EBA\u8FF7\u60D1\u4E86\u81EA\u5DF1</p><blockquote><p>\u60C5\u5546\u9AD8\u7684\u4EBA, \u80FD\u6839\u636E\u5BF9\u65B9\u7684\u6001\u5EA6\u6765\u5224\u65AD\u5BF9\u65B9\u8FD4\u56DE\u4E86\u4EC0\u4E48\u4FE1\u606F, \u662F\u53CB\u597D? \u8FD8\u662F\u6577\u884D? \u662F\u793C\u8C8C, \u8FD8\u662F\u538C\u6076?</p><p>\u5F00\u53D1\u90FD\u77E5\u9053, 200 \u624D\u662F\u6211\u4EEC\u9700\u8981\u7684\u8FD4\u56DE\u7801, \u6700\u8D77\u7801\u4E5F\u662F 3++ \u624D\u53EF\u4EE5\u6C9F\u901A</p></blockquote><p>\u5979\u8FD8\u4E0D\u4E86\u89E3\u6211, \u6240\u4EE5\u4E0D\u7406\u6211, \u6211\u8981\u591A\u8868\u73B0\u81EA\u5DF1 --- \u8FD9\u662F\u591A\u5C11\u60C5\u7AA6\u521D\u5F00\u7684\u5C11\u5E74\u6700\u7EAF\u771F\u7684\u60F3\u6CD5</p><p>\u8FD9\u5C31\u662F\u7B2C\u4E00\u6B21\u63E1\u624B\u5931\u8D25, \u7EE7\u7EED\u5C1D\u8BD5, \u76F4\u5230\u5BF9\u65B9\u6709\u53CD\u5E94, \u5E76\u4E14\u6211\u770B\u5230\u5BF9\u65B9\u53CD\u5E94</p><p>\u8FD9\u5C31\u662F\u4E09\u6B21\u63E1\u624B\u5728\u73B0\u5B9E\u751F\u6D3B\u4E2D\u7684\u6307\u5BFC\u610F\u4E49</p><blockquote><p>\u8FD9\u91CC\u6CE8\u610F, \u5343\u4E07\u522B\u95EE\u5BF9\u65B9\u4E3A\u4EC0\u4E48\u4E0D\u7406\u81EA\u5DF1, \u4E5F\u522B\u95EE\u4E3A\u4EC0\u4E48\u662F\u8FD9\u6837\u7684\u6001\u5EA6, \u5BF9\u65B9\u53EA\u4F1A\u5F53\u4F60\u4E2B\u7684\u6709\u75C5</p></blockquote><p>\u6211\u5411\u5BF9\u65B9\u6253\u62DB\u547C, \u5BF9\u65B9\u505A\u51FA\u53CD\u5E94, \u6211\u770B\u5230\u4E86\u5BF9\u65B9\u7684\u53CD\u5E94, \u6839\u636E\u53CD\u5E94\u9009\u62E9\u662F\u5426\u7EE7\u7EED\u6C9F\u901A</p><p>\u81F3\u4E8E\u5BF9\u65B9\u4F1A\u600E\u4E48\u56DE\u590D\u4F60, \u4E0D\u662F\u4F5C\u4E3A\u642D\u8BAA\u8005\u7684\u6211\u4EEC\u80FD\u63A7\u5236\u7684, \u5982\u679C\u53EF\u4EE5\u63A7\u5236, \u6211\u73B0\u5728\u5C31\u53BB\u8BBF\u95EE\u652F\u4ED8\u5B9D\u7684\u540E\u53F0\u5F80\u81EA\u5DF1\u7684\u4F59\u989D\u524D\u52A0\u4E2A 1, \u53BB\u6389\u5C0F\u6570\u70B9, \u7136\u540E\u540E\u9762\u52A0 N \u4E2A 0 \u5C82\u4E0D\u7F8E\u54C9 ?</p><h2 id="\u9700\u8981\u6CE8\u610F\u7684\u662F" tabindex="-1"><a class="header-anchor" href="#\u9700\u8981\u6CE8\u610F\u7684\u662F" aria-hidden="true">#</a> \u9700\u8981\u6CE8\u610F\u7684\u662F</h2><p><strong>\u5BF9\u65B9\u4E0D\u662F\u673A\u5668</strong></p><ul><li><p>\u4E0D\u9700\u8981\u660E\u786E\u56DE\u590D\u4F60 200, \u964C\u751F\u4EBA\u7684\u60C5\u51B5\u4E0B, \u53EA\u8981\u5BF9\u65B9\u77E5\u9053\u4E86\u4F60\u5728\u548C\u4ED6\u6253\u62DB\u547C, \u4E0D\u8868\u73B0\u51FA\u8BA8\u538C\u4F60, \u5C31\u7B97\u4E09\u6B21\u63E1\u624B\u5EFA\u7ACB\u6210\u529F</p></li><li><p>\u5728\u5BF9\u65B9\u6CA1\u6709\u660E\u663E\u60F3\u8981\u548C\u4F60\u804A\u5929\u524D, \u53EF\u4EE5\u5F53\u6210\u4E92\u8054\u7F51\u91CC\u9762\u7684 3++ \u6765\u5904\u7406, \u4F60\u9700\u8981\u66F4\u591A\u7684\u8868\u660E\u4F60\u7684\u6765\u610F, \u8868\u660E\u81EA\u5DF1\u6CA1\u6709\u6076\u610F</p></li><li><p>\u4F60\u591A\u6B21\u8BBF\u95EE\u4E00\u4E2A\u964C\u751F\u7684\u670D\u52A1\u5668, \u53EF\u80FD\u4F1A\u88AB\u62C9\u9ED1, \u4EBA\u4E5F\u4E00\u6837, \u5F53\u5BF9\u65B9\u5F00\u59CB\u8868\u73B0\u7684\u6709\u4E9B\u4E0D\u8010\u70E6, \u53CA\u65F6\u64A4\u8D70, \u5B9E\u5728\u559C\u6B22\u5BF9\u65B9, \u53EF\u4EE5\u7B49\u4E2A\u51E0\u5929\u518D\u53BB\u5076\u9047\u4ED6/\u5979</p></li></ul><!--]-->`);
+}
 const _sfc_setup$v = _sfc_main$v.setup;
 _sfc_main$v.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/index.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/love/three-way-handshake/index.html.vue");
   return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
 };
-var index_html$h = /* @__PURE__ */ Object.freeze({
+var index_html$j = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["ssrRender", _sfc_ssrRender$6]]);
+var index_html$k = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _sfc_main$v
+  "default": index_html$j
 });
 const _sfc_main$u = {};
 function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
@@ -2476,11 +2583,11 @@ _sfc_main$u.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/node/koa/index.html.vue");
   return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
 };
-var index_html$f = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$5]]);
-var index_html$g = /* @__PURE__ */ Object.freeze({
+var index_html$h = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$5]]);
+var index_html$i = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$f
+  "default": index_html$h
 });
 const _sfc_main$t = {};
 function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
@@ -2495,11 +2602,11 @@ _sfc_main$t.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/react/index.html.vue");
   return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
 };
-var index_html$d = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$4]]);
-var index_html$e = /* @__PURE__ */ Object.freeze({
+var index_html$f = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$4]]);
+var index_html$g = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$d
+  "default": index_html$f
 });
 const _sfc_main$s = {};
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
@@ -2696,11 +2803,11 @@ _sfc_main$s.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/tool/index.html.vue");
   return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
 };
-var index_html$b = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$3]]);
-var index_html$c = /* @__PURE__ */ Object.freeze({
+var index_html$d = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$3]]);
+var index_html$e = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$b
+  "default": index_html$d
 });
 const _sfc_main$r = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
@@ -2715,11 +2822,11 @@ _sfc_main$r.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/index.html.vue");
   return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
 };
-var index_html$9 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$2]]);
-var index_html$a = /* @__PURE__ */ Object.freeze({
+var index_html$b = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$2]]);
+var index_html$c = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$9
+  "default": index_html$b
 });
 const _sfc_main$q = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
@@ -2736,7 +2843,7 @@ var _404_html$2 = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _404_html$1
 });
-const data$9 = {
+const data$b = {
   "key": "v-8daa1a0e",
   "path": "/",
   "title": "liu0716",
@@ -2772,12 +2879,12 @@ const data$9 = {
   "git": {},
   "filePathRelative": "README.md"
 };
-var index_html$8 = /* @__PURE__ */ Object.freeze({
+var index_html$a = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$9
+  data: data$b
 });
-const data$8 = {
+const data$a = {
   "key": "v-149c3324",
   "path": "/game/",
   "title": "\u4F7F\u7528 vue3 \u5B9E\u73B0\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7",
@@ -2830,12 +2937,12 @@ const data$8 = {
   "git": {},
   "filePathRelative": "game/README.md"
 };
-var index_html$7 = /* @__PURE__ */ Object.freeze({
+var index_html$9 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$8
+  data: data$a
 });
-const data$7 = {
+const data$9 = {
   "key": "v-14b0a7d7",
   "path": "/home/",
   "title": "OtherComponent",
@@ -2853,12 +2960,32 @@ const data$7 = {
   "git": {},
   "filePathRelative": "home/README.md"
 };
-var index_html$6 = /* @__PURE__ */ Object.freeze({
+var index_html$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$7
+  data: data$9
 });
-const data$6 = {
+const data$8 = {
+  "key": "v-14e927a4",
+  "path": "/love/",
+  "title": "\u50CF\u5199\u524D\u7AEF\u4E00\u6837\u8C08\u604B\u7231",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u50CF\u5199\u524D\u7AEF\u4E00\u6837\u8C08\u604B\u7231",
+    "description": "\u524D\u7AEF\u4E0E\u604B\u7231\u770B\u4F3C\u4E0D\u540C, \u5B9E\u9645\u5185\u90E8\u7684\u54F2\u5B66\u662F\u4E00\u6837\u7684"
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {},
+  "filePathRelative": "love/README.md"
+};
+var index_html$7 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$8
+});
+const data$7 = {
   "key": "v-15051314",
   "path": "/node/",
   "title": "node",
@@ -2880,12 +3007,12 @@ const data$6 = {
   "git": {},
   "filePathRelative": "node/README.md"
 };
-var index_html$5 = /* @__PURE__ */ Object.freeze({
+var index_html$6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$6
+  data: data$7
 });
-const data$5 = {
+const data$6 = {
   "key": "v-744e6dd4",
   "path": "/web/",
   "title": "\u524D\u7AEF\u6280\u672F\u5206\u4EAB",
@@ -2906,6 +3033,51 @@ const data$5 = {
   ],
   "git": {},
   "filePathRelative": "web/README.md"
+};
+var index_html$5 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$6
+});
+const data$5 = {
+  "key": "v-3df50e69",
+  "path": "/love/three-way-handshake/",
+  "title": "\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684\u4E09\u6B21\u63E1\u624B",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684\u4E09\u6B21\u63E1\u624B",
+    "description": "\u50CF\u5199 web \u524D\u7AEF\u4E00\u6837\u8C08\u604B\u7231"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u65E2\u7136\u662F\u534F\u8BAE, \u53EF\u4EE5\u4E0D\u9075\u5B88\u5417?",
+      "slug": "\u65E2\u7136\u662F\u534F\u8BAE-\u53EF\u4EE5\u4E0D\u9075\u5B88\u5417",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u90A3, \u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB?",
+      "slug": "\u90A3-\u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u7136\u9E45, \u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD, \u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA",
+      "slug": "\u7136\u9E45-\u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD-\u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u9700\u8981\u6CE8\u610F\u7684\u662F",
+      "slug": "\u9700\u8981\u6CE8\u610F\u7684\u662F",
+      "children": []
+    }
+  ],
+  "git": {},
+  "filePathRelative": "love/three-way-handshake/README.md"
 };
 var index_html$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,

@@ -6970,36 +6970,44 @@ const pagesComponents = {
   ), true ? ["assets/index.html.998ff25d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-149c3324": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-149c3324" */
-    "./index.html.0f8a8c29.js"
-  ), true ? ["assets/index.html.0f8a8c29.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.fc38c903.js"
+  ), true ? ["assets/index.html.fc38c903.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-14b0a7d7": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-14b0a7d7" */
-    "./index.html.244d8cbf.js"
+    "./index.html.12d7f878.js"
+  ), true ? [] : void 0)),
+  "v-14e927a4": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-14e927a4" */
+    "./index.html.b6107a88.js"
   ), true ? [] : void 0)),
   "v-15051314": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-15051314" */
-    "./index.html.c3d88465.js"
+    "./index.html.ab772d45.js"
   ), true ? [] : void 0)),
   "v-744e6dd4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-744e6dd4" */
-    "./index.html.b755e67c.js"
+    "./index.html.3820251c.js"
   ), true ? [] : void 0)),
+  "v-3df50e69": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-3df50e69" */
+    "./index.html.30fae098.js"
+  ), true ? ["assets/index.html.30fae098.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-178fb966": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-178fb966" */
-    "./index.html.274435b5.js"
-  ), true ? ["assets/index.html.274435b5.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.7f1976b7.js"
+  ), true ? ["assets/index.html.7f1976b7.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-1ff71564": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-1ff71564" */
-    "./index.html.2e135432.js"
-  ), true ? ["assets/index.html.2e135432.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.fd797b38.js"
+  ), true ? ["assets/index.html.fd797b38.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-7d07e043": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-7d07e043" */
-    "./index.html.0e1525b6.js"
-  ), true ? ["assets/index.html.0e1525b6.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.9ba666ec.js"
+  ), true ? ["assets/index.html.9ba666ec.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-ad9a6986": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-ad9a6986" */
-    "./index.html.42f1e573.js"
-  ), true ? ["assets/index.html.42f1e573.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.ac5c6675.js"
+  ), true ? ["assets/index.html.ac5c6675.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
     "./404.html.37b0c78d.js"
@@ -7018,6 +7026,10 @@ const pagesData$1 = {
     /* webpackChunkName: "v-14b0a7d7" */
     "./index.html.4b3583f3.js"
   ), true ? [] : void 0).then(({ data }) => data),
+  "v-14e927a4": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-14e927a4" */
+    "./index.html.119c40eb.js"
+  ), true ? [] : void 0).then(({ data }) => data),
   "v-15051314": () => __vitePreload(() => import(
     /* webpackChunkName: "v-15051314" */
     "./index.html.c6f9ed6a.js"
@@ -7025,6 +7037,10 @@ const pagesData$1 = {
   "v-744e6dd4": () => __vitePreload(() => import(
     /* webpackChunkName: "v-744e6dd4" */
     "./index.html.fe8d94d7.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-3df50e69": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-3df50e69" */
+    "./index.html.3ea2690c.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-178fb966": () => __vitePreload(() => import(
     /* webpackChunkName: "v-178fb966" */
@@ -7337,12 +7353,12 @@ Content.props = {
 const layoutComponents = {
   "404": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-404" */
-    "./404.3f5ac1ab.js"
+    "./404.13183319.js"
   ), true ? [] : void 0)),
   "Layout": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-Layout" */
-    "./Layout.547b3800.js"
-  ), true ? ["assets/Layout.547b3800.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))
+    "./Layout.d9409bd7.js"
+  ), true ? ["assets/Layout.d9409bd7.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))
 };
 const Vuepress = defineComponent({
   name: "Vuepress",
@@ -7916,6 +7932,10 @@ const themeData$1 = {
       ]
     },
     {
+      "text": "\u524D\u7AEF\u4E0E\u604B\u7231",
+      "link": "/love"
+    },
+    {
       "text": "\u6E38\u620F\u5206\u4EAB",
       "link": "/game"
     }
@@ -7932,6 +7952,10 @@ const themeData$1 = {
     {
       "text": "node\u5206\u4EAB",
       "link": "/node"
+    },
+    {
+      "text": "\u524D\u7AEF\u4E0E\u604B\u7231",
+      "link": "/love"
     },
     {
       "text": "\u6E38\u620F\u5206\u4EAB",
@@ -8585,7 +8609,7 @@ var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
   };
 });
 var clientAppEnhance4 = ({ app }) => {
-  app.component("Game", defineAsyncComponent(() => __vitePreload(() => import("./Game.52e40ae0.js"), true ? ["assets/Game.52e40ae0.js","assets/Mine.41b1876d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home.2ca1f833.js"), true ? ["assets/Home.2ca1f833.js","assets/axios.755e13ab.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList.00724690.js"), true ? [] : void 0))), app.component("Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine.41b1876d.js"), true ? ["assets/Mine.41b1876d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent.a588930c.js"), true ? ["assets/OtherComponent.a588930c.js","assets/axios.755e13ab.js"] : void 0)));
+  app.component("Game", defineAsyncComponent(() => __vitePreload(() => import("./Game.d19b8b40.js"), true ? ["assets/Game.d19b8b40.js","assets/Mine.ff495b59.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home.230b7541.js"), true ? ["assets/Home.230b7541.js","assets/axios.755e13ab.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList.bff632f4.js"), true ? [] : void 0))), app.component("Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine.ff495b59.js"), true ? ["assets/Mine.ff495b59.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent.fe90fa74.js"), true ? ["assets/OtherComponent.fe90fa74.js","assets/axios.755e13ab.js"] : void 0)));
 };
 const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
   const onKeydown = (event) => {
@@ -8657,6 +8681,13 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "\u50CF\u5199\u524D\u7AEF\u4E00\u6837\u8C08\u604B\u7231",
+    "headers": [],
+    "path": "/love/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "node",
     "headers": [
       {
@@ -8681,6 +8712,38 @@ const searchIndex$1 = [
       }
     ],
     "path": "/web/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684\u4E09\u6B21\u63E1\u624B",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u65E2\u7136\u662F\u534F\u8BAE, \u53EF\u4EE5\u4E0D\u9075\u5B88\u5417?",
+        "slug": "\u65E2\u7136\u662F\u534F\u8BAE-\u53EF\u4EE5\u4E0D\u9075\u5B88\u5417",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u90A3, \u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB?",
+        "slug": "\u90A3-\u548C\u8C08\u604B\u7231\u6709\u6BDB\u7684\u5173\u7CFB",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u7136\u9E45, \u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD, \u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA",
+        "slug": "\u7136\u9E45-\u5F53\u4F60\u548C\u4E00\u4E2A\u964C\u751F\u4EBA\u642D\u8BDD-\u7279\u522B\u662F\u548C\u4E00\u4E2A\u8BA9\u4F60\u5FC3\u52A8\u7684\u5F02\u6027\u642D\u8BAA",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u9700\u8981\u6CE8\u610F\u7684\u662F",
+        "slug": "\u9700\u8981\u6CE8\u610F\u7684\u662F",
+        "children": []
+      }
+    ],
+    "path": "/love/three-way-handshake/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -9473,8 +9536,10 @@ const routeItems = [
   ["v-8daa1a0e", "/", { "title": "liu0716" }, ["/index.html", "/README.md"]],
   ["v-149c3324", "/game/", { "title": "\u4F7F\u7528 vue3 \u5B9E\u73B0\u7ECF\u5178\u6E38\u620F\u4E4B\u626B\u96F7" }, ["/game/index.html", "/game/README.md"]],
   ["v-14b0a7d7", "/home/", { "title": "OtherComponent" }, ["/home/index.html", "/home/README.md"]],
+  ["v-14e927a4", "/love/", { "title": "\u50CF\u5199\u524D\u7AEF\u4E00\u6837\u8C08\u604B\u7231" }, ["/love/index.html", "/love/README.md"]],
   ["v-15051314", "/node/", { "title": "node" }, ["/node/index.html", "/node/README.md"]],
   ["v-744e6dd4", "/web/", { "title": "\u524D\u7AEF\u6280\u672F\u5206\u4EAB" }, ["/web/index.html", "/web/README.md"]],
+  ["v-3df50e69", "/love/three-way-handshake/", { "title": "\u4E0E\u964C\u751F\u4EBA\u642D\u8BAA\u7684\u4E09\u6B21\u63E1\u624B" }, ["/love/three-way-handshake/index.html", "/love/three-way-handshake/README.md"]],
   ["v-178fb966", "/node/koa/", { "title": "koa" }, ["/node/koa/index.html", "/node/koa/README.md"]],
   ["v-1ff71564", "/web/react/", { "title": "React" }, ["/web/react/index.html", "/web/react/README.md"]],
   ["v-7d07e043", "/web/tool/", { "title": "\u524D\u7AEF\u9879\u76EE\u89C4\u8303\u5316\u5DE5\u5177\u914D\u7F6E" }, ["/web/tool/index.html", "/web/tool/README.md"]],
@@ -9581,4 +9646,4 @@ const createVueApp = async () => {
     });
   });
 }
-export { useScrollPromise as $, isArray as A, useRoute as B, toRefs as C, createBlock as D, mergeProps as E, Fragment as F, renderSlot as G, isLinkHttp as H, isLinkMailto as I, isLinkTel as J, useSiteData as K, useSiteLocaleData as L, useDarkMode as M, h as N, withBase as O, ClientOnly as P, removeLeadingSlash as Q, removeEndingSlash as R, useRouter as S, Transition as T, isString$1 as U, useNavLink as V, normalizeStyle as W, usePageData as X, useSidebarItems as Y, isPlainObject as Z, onUnmounted as _, createVNode as a, createStaticVNode as b, createElementBlock as c, createVueApp, defineComponent as d, ref as e, renderList as f, createBaseVNode as g, createTextVNode as h, computed as i, onMounted as j, watch as k, withDirectives as l, createCommentVNode as m, normalizeClass as n, openBlock as o, withModifiers as p, pushScopeId as q, resolveComponent as r, popScopeId as s, toDisplayString as t, unref as u, vShow as v, withCtx as w, useRouteLocale as x, useThemeLocaleData as y, usePageFrontmatter as z };
+export { useScrollPromise as $, usePageFrontmatter as A, isArray as B, useRoute as C, toRefs as D, mergeProps as E, Fragment as F, renderSlot as G, isLinkHttp as H, isLinkMailto as I, isLinkTel as J, useSiteData as K, useSiteLocaleData as L, useDarkMode as M, h as N, withBase as O, ClientOnly as P, removeLeadingSlash as Q, removeEndingSlash as R, useRouter as S, Transition as T, isString$1 as U, useNavLink as V, normalizeStyle as W, usePageData as X, useSidebarItems as Y, isPlainObject as Z, onUnmounted as _, createVNode as a, createStaticVNode as b, createElementBlock as c, createVueApp, defineComponent as d, ref as e, renderList as f, createBaseVNode as g, createTextVNode as h, createBlock as i, computed as j, onMounted as k, watch as l, withDirectives as m, normalizeClass as n, openBlock as o, createCommentVNode as p, withModifiers as q, resolveComponent as r, pushScopeId as s, toDisplayString as t, unref as u, vShow as v, withCtx as w, popScopeId as x, useRouteLocale as y, useThemeLocaleData as z };
