@@ -1,96 +1,33 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="generator" content="VuePress 2.0.0-beta.61">
-  <style>
-    :root {
-      --c-bg: #fff;
-    }
-
-    html.dark {
-      --c-bg: #22272e;
-    }
-
-    html,
-    body {
-      background-color: var(--c-bg);
-    }
-  </style>
-  <script>
-    const userMode = localStorage.getItem('vuepress-color-scheme');
-    const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-      document.documentElement.classList.toggle('dark', true);
-    }
-  </script>
-  <link type="image/svg" rel="icon" href="/press/favicon.svg">
-  <meta name="keywords" content="前端,游戏,Vue,React,Node,前端项目规范化工具配置,Koa">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="robots" content="index,follow">
-  <meta name="og:title" content="liu0716 的个人博客">
-  <meta name="url" content="https://liu0716.gitee.io/press/">
-  <meta name="og:url" content="https://lliu0716.github.io/press/">
-  <title>liu0716 的个人博客</title>
-  <meta name="description" content="">
-  <link rel="preload" href="/press/assets/style-f490d89d.css" as="style">
-  <link rel="stylesheet" href="/press/assets/style-f490d89d.css">
-  <link rel="modulepreload" href="/press/assets/app-e788661d.js">
-  <link rel="modulepreload" href="/press/assets/framework-f3b08abd.js">
-  <link rel="modulepreload" href="/press/assets/404.html-f450d339.js">
-  <link rel="modulepreload" href="/press/assets/404.html-d1da943c.js">
-  <link rel="prefetch" href="/press/assets/index.html-1e68895e.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-cd954e0b.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-67a7af56.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-f93977f1.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-2a3cf2bb.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-5d2b61a8.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-2ac0abe0.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-b5d1e92f.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-ce8b73c9.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-7f7e32ba.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-16a0b569.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-e42d9afb.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-978381eb.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-d7dfe084.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-5ba8fbb6.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-4539a548.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-2235fd71.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-3bb6e847.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-36e0b9e8.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-6f926197.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-9f770c69.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-3a64eb24.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-26463d37.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-eb0e8138.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-5a81495a.js" as="script">
-  <link rel="prefetch" href="/press/assets/index.html-8d14591a.js" as="script">
-  <link rel="prefetch" href="/press/assets/Alert-4a01cd8a.js" as="script">
-  <link rel="prefetch" href="/press/assets/GluttonousSnake-dfb4a23f.js" as="script">
-  <link rel="prefetch" href="/press/assets/Home-bb48004c.js" as="script">
-  <link rel="prefetch" href="/press/assets/LinkList-d17a0834.js" as="script">
-  <link rel="prefetch" href="/press/assets/MineClearance-3ba2e06a.js" as="script">
-  <link rel="prefetch" href="/press/assets/OtherComponent-a56dc8bd.js" as="script">
-  <link rel="prefetch" href="/press/assets/Control-63fa8415.js" as="script">
-  <link rel="prefetch" href="/press/assets/Snake-c79073d3.js" as="script">
-  <link rel="prefetch" href="/press/assets/Mine-4f5e8663.js" as="script">
-  <link rel="prefetch" href="/press/assets/setupDevtools-X4YFRK4B-a53e7824.js" as="script">
-</head>
-
-<body>
-  <div id="app"><!--[-->
-    <div class="theme-container">
-      <main class="page">
-        <div class="theme-default-content">
-          <h1>404</h1>
-          <blockquote>页面丢失</blockquote><a href="/press/" class="">返回首页</a>
-        </div>
-      </main>
-    </div><!----><!--]-->
-  </div>
-  <script type="module" src="/press/assets/app-e788661d.js" defer></script>
-</body>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link type="image/svg" rel="icon" href="/press/favicon.svg"><meta name="keywords" content="前端,游戏,Vue,React,Node,前端项目规范化工具配置,Koa"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta name="robots" content="index,follow"><meta name="og:title" content="liu0716 的个人博客"><meta name="url" content="https://liu0716.gitee.io/press/"><meta name="og:url" content="https://lliu0716.github.io/press/"><title>liu0716 的个人博客</title><meta name="description" content="">
+    <link rel="preload" href="/press/assets/style-201abaad.css" as="style"><link rel="stylesheet" href="/press/assets/style-201abaad.css">
+    <link rel="modulepreload" href="/press/assets/app-321c8f75.js"><link rel="modulepreload" href="/press/assets/framework-f3b08abd.js"><link rel="modulepreload" href="/press/assets/404.html-d1da943c.js"><link rel="modulepreload" href="/press/assets/404.html-f450d339.js"><link rel="prefetch" href="/press/assets/index.html-1e68895e.js" as="script"><link rel="prefetch" href="/press/assets/index.html-67a7af56.js" as="script"><link rel="prefetch" href="/press/assets/index.html-cd954e0b.js" as="script"><link rel="prefetch" href="/press/assets/index.html-f93977f1.js" as="script"><link rel="prefetch" href="/press/assets/index.html-2a3cf2bb.js" as="script"><link rel="prefetch" href="/press/assets/index.html-5d2b61a8.js" as="script"><link rel="prefetch" href="/press/assets/index.html-df432437.js" as="script"><link rel="prefetch" href="/press/assets/index.html-b5d1e92f.js" as="script"><link rel="prefetch" href="/press/assets/index.html-ce8b73c9.js" as="script"><link rel="prefetch" href="/press/assets/index.html-7f7e32ba.js" as="script"><link rel="prefetch" href="/press/assets/index.html-16a0b569.js" as="script"><link rel="prefetch" href="/press/assets/index.html-e42d9afb.js" as="script"><link rel="prefetch" href="/press/assets/index.html-978381eb.js" as="script"><link rel="prefetch" href="/press/assets/index.html-d7dfe084.js" as="script"><link rel="prefetch" href="/press/assets/index.html-4539a548.js" as="script"><link rel="prefetch" href="/press/assets/index.html-5ba8fbb6.js" as="script"><link rel="prefetch" href="/press/assets/index.html-2235fd71.js" as="script"><link rel="prefetch" href="/press/assets/index.html-3bb6e847.js" as="script"><link rel="prefetch" href="/press/assets/index.html-36e0b9e8.js" as="script"><link rel="prefetch" href="/press/assets/index.html-45852ca1.js" as="script"><link rel="prefetch" href="/press/assets/index.html-9f770c69.js" as="script"><link rel="prefetch" href="/press/assets/index.html-3a64eb24.js" as="script"><link rel="prefetch" href="/press/assets/index.html-26463d37.js" as="script"><link rel="prefetch" href="/press/assets/index.html-eb0e8138.js" as="script"><link rel="prefetch" href="/press/assets/index.html-5a81495a.js" as="script"><link rel="prefetch" href="/press/assets/index.html-8d14591a.js" as="script"><link rel="prefetch" href="/press/assets/Alert-4a01cd8a.js" as="script"><link rel="prefetch" href="/press/assets/GluttonousSnake-675a1af8.js" as="script"><link rel="prefetch" href="/press/assets/Home-bb48004c.js" as="script"><link rel="prefetch" href="/press/assets/LinkList-d17a0834.js" as="script"><link rel="prefetch" href="/press/assets/MineClearance-3ba2e06a.js" as="script"><link rel="prefetch" href="/press/assets/OtherComponent-a56dc8bd.js" as="script"><link rel="prefetch" href="/press/assets/Control-63fa8415.js" as="script"><link rel="prefetch" href="/press/assets/Snake-c79073d3.js" as="script"><link rel="prefetch" href="/press/assets/Mine-4f5e8663.js" as="script"><link rel="prefetch" href="/press/assets/setupDevtools-X4YFRK4B-a53e7824.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>页面丢失</blockquote><a href="/press/" class="">返回首页</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/press/assets/app-321c8f75.js" defer></script>
+  </body>
 </html>

@@ -49,15 +49,15 @@ const pagesData$1 = {
     /* webpackChunkName: "v-8daa1a0e" */
     "./index.html-1e68895e.js"
   ), true ? [] : void 0).then(({ data }) => data),
-  // path: /game/
-  "v-149c3324": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-149c3324" */
-    "./index.html-cd954e0b.js"
-  ), true ? [] : void 0).then(({ data }) => data),
   // path: /home/
   "v-14b0a7d7": () => __vitePreload(() => import(
     /* webpackChunkName: "v-14b0a7d7" */
     "./index.html-67a7af56.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  // path: /game/
+  "v-149c3324": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-149c3324" */
+    "./index.html-cd954e0b.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /love/
   "v-14e927a4": () => __vitePreload(() => import(
@@ -77,7 +77,7 @@ const pagesData$1 = {
   // path: /game/gluttonous-snake/
   "v-72027ecc": () => __vitePreload(() => import(
     /* webpackChunkName: "v-72027ecc" */
-    "./index.html-2ac0abe0.js"
+    "./index.html-df432437.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /game/mine-clearance/
   "v-57febeae": () => __vitePreload(() => import(
@@ -122,16 +122,16 @@ const pagesComponents = {
     /* webpackChunkName: "v-8daa1a0e" */
     "./index.html-d7dfe084.js"
   ), true ? ["assets/index.html-d7dfe084.js","assets/framework-f3b08abd.js"] : void 0)),
-  // path: /game/
-  "v-149c3324": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-149c3324" */
-    "./index.html-5ba8fbb6.js"
-  ), true ? ["assets/index.html-5ba8fbb6.js","assets/framework-f3b08abd.js"] : void 0)),
   // path: /home/
   "v-14b0a7d7": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-14b0a7d7" */
     "./index.html-4539a548.js"
   ), true ? ["assets/index.html-4539a548.js","assets/framework-f3b08abd.js"] : void 0)),
+  // path: /game/
+  "v-149c3324": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-149c3324" */
+    "./index.html-5ba8fbb6.js"
+  ), true ? ["assets/index.html-5ba8fbb6.js","assets/framework-f3b08abd.js"] : void 0)),
   // path: /love/
   "v-14e927a4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-14e927a4" */
@@ -150,8 +150,8 @@ const pagesComponents = {
   // path: /game/gluttonous-snake/
   "v-72027ecc": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-72027ecc" */
-    "./index.html-6f926197.js"
-  ), true ? ["assets/index.html-6f926197.js","assets/framework-f3b08abd.js"] : void 0)),
+    "./index.html-45852ca1.js"
+  ), true ? ["assets/index.html-45852ca1.js","assets/framework-f3b08abd.js"] : void 0)),
   // path: /game/mine-clearance/
   "v-57febeae": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-57febeae" */
@@ -3776,16 +3776,16 @@ const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
 };
 const searchIndex$1 = [
   {
-    "title": "游戏分享",
+    "title": "OtherComponent",
     "headers": [],
-    "path": "/game/",
+    "path": "/home/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "OtherComponent",
+    "title": "游戏分享",
     "headers": [],
-    "path": "/home/",
+    "path": "/game/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4269,7 +4269,7 @@ const clientConfig7 = defineClientConfig({
 });
 const clientConfig8 = {
   enhance: ({ app }) => {
-    app.component("Alert", defineAsyncComponent(() => __vitePreload(() => import("./Alert-4a01cd8a.js"), true ? ["assets/Alert-4a01cd8a.js","assets/framework-f3b08abd.js"] : void 0))), app.component("GluttonousSnake", defineAsyncComponent(() => __vitePreload(() => import("./GluttonousSnake-dfb4a23f.js"), true ? ["assets/GluttonousSnake-dfb4a23f.js","assets/framework-f3b08abd.js","assets/Snake-c79073d3.js","assets/Control-63fa8415.js","assets/Alert-4a01cd8a.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home-bb48004c.js"), true ? ["assets/Home-bb48004c.js","assets/framework-f3b08abd.js","assets/index-2d77be42.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList-d17a0834.js"), true ? ["assets/LinkList-d17a0834.js","assets/framework-f3b08abd.js"] : void 0))), app.component("MineClearance", defineAsyncComponent(() => __vitePreload(() => import("./MineClearance-3ba2e06a.js"), true ? ["assets/MineClearance-3ba2e06a.js","assets/framework-f3b08abd.js","assets/Mine-4f5e8663.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent-a56dc8bd.js"), true ? ["assets/OtherComponent-a56dc8bd.js","assets/framework-f3b08abd.js","assets/index-2d77be42.js"] : void 0))), app.component("GluttonousSnake-Control", defineAsyncComponent(() => __vitePreload(() => import("./Control-63fa8415.js"), true ? ["assets/Control-63fa8415.js","assets/framework-f3b08abd.js"] : void 0))), app.component("GluttonousSnake-Snake", defineAsyncComponent(() => __vitePreload(() => import("./Snake-c79073d3.js"), true ? ["assets/Snake-c79073d3.js","assets/framework-f3b08abd.js"] : void 0))), app.component("MineClearance-Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine-4f5e8663.js"), true ? ["assets/Mine-4f5e8663.js","assets/framework-f3b08abd.js"] : void 0)));
+    app.component("Alert", defineAsyncComponent(() => __vitePreload(() => import("./Alert-4a01cd8a.js"), true ? ["assets/Alert-4a01cd8a.js","assets/framework-f3b08abd.js"] : void 0))), app.component("GluttonousSnake", defineAsyncComponent(() => __vitePreload(() => import("./GluttonousSnake-675a1af8.js"), true ? ["assets/GluttonousSnake-675a1af8.js","assets/framework-f3b08abd.js","assets/Snake-c79073d3.js","assets/Control-63fa8415.js","assets/Alert-4a01cd8a.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home-bb48004c.js"), true ? ["assets/Home-bb48004c.js","assets/framework-f3b08abd.js","assets/index-2d77be42.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList-d17a0834.js"), true ? ["assets/LinkList-d17a0834.js","assets/framework-f3b08abd.js"] : void 0))), app.component("MineClearance", defineAsyncComponent(() => __vitePreload(() => import("./MineClearance-3ba2e06a.js"), true ? ["assets/MineClearance-3ba2e06a.js","assets/framework-f3b08abd.js","assets/Mine-4f5e8663.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent-a56dc8bd.js"), true ? ["assets/OtherComponent-a56dc8bd.js","assets/framework-f3b08abd.js","assets/index-2d77be42.js"] : void 0))), app.component("GluttonousSnake-Control", defineAsyncComponent(() => __vitePreload(() => import("./Control-63fa8415.js"), true ? ["assets/Control-63fa8415.js","assets/framework-f3b08abd.js"] : void 0))), app.component("GluttonousSnake-Snake", defineAsyncComponent(() => __vitePreload(() => import("./Snake-c79073d3.js"), true ? ["assets/Snake-c79073d3.js","assets/framework-f3b08abd.js"] : void 0))), app.component("MineClearance-Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine-4f5e8663.js"), true ? ["assets/Mine-4f5e8663.js","assets/framework-f3b08abd.js"] : void 0)));
   }
 };
 const clientConfig9 = defineClientConfig({
@@ -4293,8 +4293,8 @@ const clientConfigs = [
 ];
 const pagesRoutes = [
   ["v-8daa1a0e", "/", { "title": "liu0716" }, ["/index.html", "/README.md"]],
-  ["v-149c3324", "/game/", { "title": "游戏分享" }, ["/game/index.html", "/game/README.md"]],
   ["v-14b0a7d7", "/home/", { "title": "OtherComponent" }, ["/home/index.html", "/home/README.md"]],
+  ["v-149c3324", "/game/", { "title": "游戏分享" }, ["/game/index.html", "/game/README.md"]],
   ["v-14e927a4", "/love/", { "title": "像写前端一样谈恋爱" }, ["/love/index.html", "/love/README.md"]],
   ["v-15051314", "/node/", { "title": "node" }, ["/node/index.html", "/node/README.md"]],
   ["v-744e6dd4", "/web/", { "title": "前端技术分享" }, ["/web/index.html", "/web/README.md"]],

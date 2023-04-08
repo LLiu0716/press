@@ -1917,13 +1917,6 @@ a.sidebar-item:hover {
   }
 }
 
-.page .theme-default-content {
-  padding: 0;
-}
-.page .theme-default-content .box {
-  padding: 0 1.5rem;
-}
-
 table {
   /* border-collapse: collapse; */
   border-spacing: 0;
@@ -1935,20 +1928,23 @@ img {
 button {
   cursor: pointer;
 }
-.alert[data-v-a9dde92f] {
+.alert[data-v-683afa8e] {
   text-align: center;
   color: #000;
   margin-top: 20px;
   font-size: 22px;
 }
-.main[data-v-a9dde92f] {
+.main[data-v-683afa8e] {
   width: 100%;
   max-width: 375px;
-  margin: 0 auto;
-  height: 100vh;
+  min-width: 375px;
+  margin: 10px auto;
   overflow: hidden;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.main-view[data-v-a9dde92f] {
+.main-view[data-v-683afa8e] {
   position: relative;
   width: 100%;
   max-width: 365px;
@@ -1958,51 +1954,51 @@ button {
   background-color: #efefef;
   margin: 1.5vh auto;
 }
-.main-view .target[data-v-a9dde92f] {
+.main-view .target[data-v-683afa8e] {
   background-color: #333;
   position: absolute;
   border-radius: 50%;
   z-index: 0;
 }
-.main-count[data-v-a9dde92f] {
+.main-count[data-v-683afa8e] {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: 20px auto;
 }
-.main-count .snakeList-length-0[data-v-a9dde92f] {
+.main-count .snakeList-length-0[data-v-683afa8e] {
   color: #00f;
 }
-.main-count .snakeList-length-1[data-v-a9dde92f] {
+.main-count .snakeList-length-1[data-v-683afa8e] {
   color: #0f0;
 }
-.main-count .snakeList-length-2[data-v-a9dde92f] {
+.main-count .snakeList-length-2[data-v-683afa8e] {
   color: #f00;
 }
-.main-count button[data-v-a9dde92f] {
+.main-count button[data-v-683afa8e] {
   padding: 8px 16px;
   border-radius: 4px;
   outline: none;
   border: none;
 }
-.main-control[data-v-a9dde92f] {
+.main-control[data-v-683afa8e] {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.main-control button[data-v-a9dde92f] {
+.main-control button[data-v-683afa8e] {
   padding: 12px 20px;
   border-radius: 4px;
   outline: none;
   border: none;
   font-size: 20px;
 }
-.main-tip[data-v-a9dde92f] {
+.main-tip[data-v-683afa8e] {
   text-align: center;
   font-size: 20px;
   margin-top: 30px;
 }
-.main-tip > span[data-v-a9dde92f] {
+.main-tip > span[data-v-683afa8e] {
   color: #f00;
 }
 .i-layer-main[data-v-521d4ab3] {
