@@ -1,0 +1,4 @@
+const data = JSON.parse('{"key":"v-3df50e69","path":"/love/three-way-handshake/","title":"与陌生人搭讪的三次握手","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"与陌生人搭讪的三次握手","description":"像写 web 前端一样谈恋爱"},"headers":[{"level":2,"title":"既然是协议, 可以不遵守吗?","slug":"既然是协议-可以不遵守吗","link":"#既然是协议-可以不遵守吗","children":[]},{"level":2,"title":"那, 和谈恋爱有毛的关系?","slug":"那-和谈恋爱有毛的关系","link":"#那-和谈恋爱有毛的关系","children":[]},{"level":2,"title":"然鹅, 当你和一个陌生人搭话, 特别是和一个让你心动的异性搭讪","slug":"然鹅-当你和一个陌生人搭话-特别是和一个让你心动的异性搭讪","link":"#然鹅-当你和一个陌生人搭话-特别是和一个让你心动的异性搭讪","children":[]},{"level":2,"title":"需要注意的是","slug":"需要注意的是","link":"#需要注意的是","children":[]}],"git":{"updatedTime":1680985404000,"contributors":[{"name":"liu","email":"450441058@qq.com","commits":1}]},"filePathRelative":"love/three-way-handshake/README.md"}');
+export {
+  data
+};
