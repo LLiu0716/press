@@ -52,17 +52,17 @@ const pagesData$1 = {
   // path: /game/
   "v-149c3324": () => __vitePreload(() => import(
     /* webpackChunkName: "v-149c3324" */
-    "./index.html-cd954e0b.js"
-  ), true ? [] : void 0).then(({ data }) => data),
-  // path: /home/
-  "v-14b0a7d7": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-14b0a7d7" */
-    "./index.html-67a7af56.js"
+    "./index.html-cc64bccf.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /love/
   "v-14e927a4": () => __vitePreload(() => import(
     /* webpackChunkName: "v-14e927a4" */
     "./index.html-f93977f1.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  // path: /home/
+  "v-14b0a7d7": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-14b0a7d7" */
+    "./index.html-67a7af56.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /node/
   "v-15051314": () => __vitePreload(() => import(
@@ -82,12 +82,12 @@ const pagesData$1 = {
   // path: /game/gluttonous-snake-canvas/
   "v-a11fcb82": () => __vitePreload(() => import(
     /* webpackChunkName: "v-a11fcb82" */
-    "./index.html-4a10988a.js"
+    "./index.html-7c9b6bf6.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /game/mine-clearance/
   "v-57febeae": () => __vitePreload(() => import(
     /* webpackChunkName: "v-57febeae" */
-    "./index.html-87da1bc4.js"
+    "./index.html-f69a28a5.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /love/three-way-handshake/
   "v-3df50e69": () => __vitePreload(() => import(
@@ -132,16 +132,16 @@ const pagesComponents = {
     /* webpackChunkName: "v-149c3324" */
     "./index.html-43b21038.js"
   ), true ? ["assets/index.html-43b21038.js","assets/framework-c611892d.js"] : void 0)),
-  // path: /home/
-  "v-14b0a7d7": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-14b0a7d7" */
-    "./index.html-9ea21412.js"
-  ), true ? ["assets/index.html-9ea21412.js","assets/framework-c611892d.js"] : void 0)),
   // path: /love/
   "v-14e927a4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-14e927a4" */
     "./index.html-3bb6630f.js"
   ), true ? ["assets/index.html-3bb6630f.js","assets/framework-c611892d.js"] : void 0)),
+  // path: /home/
+  "v-14b0a7d7": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-14b0a7d7" */
+    "./index.html-9ea21412.js"
+  ), true ? ["assets/index.html-9ea21412.js","assets/framework-c611892d.js"] : void 0)),
   // path: /node/
   "v-15051314": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-15051314" */
@@ -155,13 +155,13 @@ const pagesComponents = {
   // path: /game/gluttonous-snake/
   "v-72027ecc": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-72027ecc" */
-    "./index.html-71ba4610.js"
-  ), true ? ["assets/index.html-71ba4610.js","assets/framework-c611892d.js"] : void 0)),
+    "./index.html-2a9fae25.js"
+  ), true ? ["assets/index.html-2a9fae25.js","assets/framework-c611892d.js"] : void 0)),
   // path: /game/gluttonous-snake-canvas/
   "v-a11fcb82": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-a11fcb82" */
-    "./index.html-e65edfe0.js"
-  ), true ? ["assets/index.html-e65edfe0.js","assets/framework-c611892d.js"] : void 0)),
+    "./index.html-2f6f110a.js"
+  ), true ? ["assets/index.html-2f6f110a.js","assets/framework-c611892d.js"] : void 0)),
   // path: /game/mine-clearance/
   "v-57febeae": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-57febeae" */
@@ -3793,16 +3793,16 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "OtherComponent",
+    "title": "像写前端一样谈恋爱",
     "headers": [],
-    "path": "/home/",
+    "path": "/love/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "像写前端一样谈恋爱",
+    "title": "OtherComponent",
     "headers": [],
-    "path": "/love/",
+    "path": "/home/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4323,7 +4323,7 @@ const clientConfig7 = defineClientConfig({
 });
 const clientConfig8 = {
   enhance: ({ app }) => {
-    app.component("Alert", defineAsyncComponent(() => __vitePreload(() => import("./Alert-2c06a393.js"), true ? ["assets/Alert-2c06a393.js","assets/framework-c611892d.js"] : void 0))), app.component("GluttonousSnake", defineAsyncComponent(() => __vitePreload(() => import("./GluttonousSnake-6f508087.js"), true ? ["assets/GluttonousSnake-6f508087.js","assets/framework-c611892d.js","assets/Snake-b2035f7a.js","assets/Control-9b65d1b7.js","assets/Alert-2c06a393.js"] : void 0))), app.component("GluttonousSnakeCanvas", defineAsyncComponent(() => __vitePreload(() => import("./GluttonousSnakeCanvas-34989440.js"), true ? ["assets/GluttonousSnakeCanvas-34989440.js","assets/framework-c611892d.js","assets/Control-9b65d1b7.js","assets/Alert-2c06a393.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home-fa7ef25b.js"), true ? ["assets/Home-fa7ef25b.js","assets/framework-c611892d.js","assets/index-2d77be42.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList-5f3f0819.js"), true ? ["assets/LinkList-5f3f0819.js","assets/framework-c611892d.js"] : void 0))), app.component("MineClearance", defineAsyncComponent(() => __vitePreload(() => import("./MineClearance-13791cfc.js"), true ? ["assets/MineClearance-13791cfc.js","assets/framework-c611892d.js","assets/Mine-17f87f2b.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent-bc557433.js"), true ? ["assets/OtherComponent-bc557433.js","assets/framework-c611892d.js","assets/index-2d77be42.js"] : void 0))), app.component("GluttonousSnake-Control", defineAsyncComponent(() => __vitePreload(() => import("./Control-9b65d1b7.js"), true ? ["assets/Control-9b65d1b7.js","assets/framework-c611892d.js"] : void 0))), app.component("GluttonousSnake-Snake", defineAsyncComponent(() => __vitePreload(() => import("./Snake-b2035f7a.js"), true ? ["assets/Snake-b2035f7a.js","assets/framework-c611892d.js"] : void 0))), app.component("MineClearance-Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine-17f87f2b.js"), true ? ["assets/Mine-17f87f2b.js","assets/framework-c611892d.js"] : void 0)));
+    app.component("Alert", defineAsyncComponent(() => __vitePreload(() => import("./Alert-2c06a393.js"), true ? ["assets/Alert-2c06a393.js","assets/framework-c611892d.js"] : void 0))), app.component("GluttonousSnake", defineAsyncComponent(() => __vitePreload(() => import("./GluttonousSnake-32b623a0.js"), true ? ["assets/GluttonousSnake-32b623a0.js","assets/framework-c611892d.js","assets/Snake-b2035f7a.js","assets/Control-9b65d1b7.js","assets/Alert-2c06a393.js"] : void 0))), app.component("GluttonousSnakeCanvas", defineAsyncComponent(() => __vitePreload(() => import("./GluttonousSnakeCanvas-b0cbe0f6.js"), true ? ["assets/GluttonousSnakeCanvas-b0cbe0f6.js","assets/framework-c611892d.js","assets/Control-9b65d1b7.js","assets/Alert-2c06a393.js"] : void 0))), app.component("Home", defineAsyncComponent(() => __vitePreload(() => import("./Home-fa7ef25b.js"), true ? ["assets/Home-fa7ef25b.js","assets/framework-c611892d.js","assets/index-2d77be42.js"] : void 0))), app.component("LinkList", defineAsyncComponent(() => __vitePreload(() => import("./LinkList-5f3f0819.js"), true ? ["assets/LinkList-5f3f0819.js","assets/framework-c611892d.js"] : void 0))), app.component("MineClearance", defineAsyncComponent(() => __vitePreload(() => import("./MineClearance-13791cfc.js"), true ? ["assets/MineClearance-13791cfc.js","assets/framework-c611892d.js","assets/Mine-17f87f2b.js"] : void 0))), app.component("OtherComponent", defineAsyncComponent(() => __vitePreload(() => import("./OtherComponent-bc557433.js"), true ? ["assets/OtherComponent-bc557433.js","assets/framework-c611892d.js","assets/index-2d77be42.js"] : void 0))), app.component("GluttonousSnake-Control", defineAsyncComponent(() => __vitePreload(() => import("./Control-9b65d1b7.js"), true ? ["assets/Control-9b65d1b7.js","assets/framework-c611892d.js"] : void 0))), app.component("GluttonousSnake-Snake", defineAsyncComponent(() => __vitePreload(() => import("./Snake-b2035f7a.js"), true ? ["assets/Snake-b2035f7a.js","assets/framework-c611892d.js"] : void 0))), app.component("MineClearance-Mine", defineAsyncComponent(() => __vitePreload(() => import("./Mine-17f87f2b.js"), true ? ["assets/Mine-17f87f2b.js","assets/framework-c611892d.js"] : void 0)));
   }
 };
 const clientConfig9 = defineClientConfig({
@@ -4348,8 +4348,8 @@ const clientConfigs = [
 const pagesRoutes = [
   ["v-8daa1a0e", "/", { "title": "liu0716" }, ["/index.html", "/README.md"]],
   ["v-149c3324", "/game/", { "title": "游戏分享" }, ["/game/index.html", "/game/README.md"]],
-  ["v-14b0a7d7", "/home/", { "title": "OtherComponent" }, ["/home/index.html", "/home/README.md"]],
   ["v-14e927a4", "/love/", { "title": "像写前端一样谈恋爱" }, ["/love/index.html", "/love/README.md"]],
+  ["v-14b0a7d7", "/home/", { "title": "OtherComponent" }, ["/home/index.html", "/home/README.md"]],
   ["v-15051314", "/node/", { "title": "node" }, ["/node/index.html", "/node/README.md"]],
   ["v-744e6dd4", "/web/", { "title": "前端技术分享" }, ["/web/index.html", "/web/README.md"]],
   ["v-72027ecc", "/game/gluttonous-snake/", { "title": "使用 vue3 实现经典游戏之贪吃蛇" }, ["/game/gluttonous-snake/index.html", "/game/gluttonous-snake/README.md"]],

@@ -1986,23 +1986,27 @@ button {
   min-width: 100px;
   font-weight: 700;
 }
-.alert[data-v-683afa8e] {
+.alert[data-v-f388bd37] {
   text-align: center;
   color: #000;
   margin-top: 20px;
   font-size: 22px;
 }
-.main[data-v-683afa8e] {
+@media (max-width: 419px) {
+.main[data-v-f388bd37] {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}
+.main[data-v-f388bd37] {
   width: 100%;
   max-width: 375px;
   min-width: 375px;
   margin: 10px auto;
   overflow: hidden;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
-.main-view[data-v-683afa8e] {
+.main-view[data-v-f388bd37] {
   position: relative;
   width: 100%;
   max-width: 365px;
@@ -2012,51 +2016,51 @@ button {
   background-color: #efefef;
   margin: 1.5vh auto;
 }
-.main-view .target[data-v-683afa8e] {
+.main-view .target[data-v-f388bd37] {
   background-color: #333;
   position: absolute;
   border-radius: 50%;
   z-index: 0;
 }
-.main-count[data-v-683afa8e] {
+.main-count[data-v-f388bd37] {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: 20px auto;
 }
-.main-count .snakeList-length-0[data-v-683afa8e] {
+.main-count .snakeList-length-0[data-v-f388bd37] {
   color: #00f;
 }
-.main-count .snakeList-length-1[data-v-683afa8e] {
+.main-count .snakeList-length-1[data-v-f388bd37] {
   color: #0f0;
 }
-.main-count .snakeList-length-2[data-v-683afa8e] {
+.main-count .snakeList-length-2[data-v-f388bd37] {
   color: #f00;
 }
-.main-count button[data-v-683afa8e] {
+.main-count button[data-v-f388bd37] {
   padding: 8px 16px;
   border-radius: 4px;
   outline: none;
   border: none;
 }
-.main-control[data-v-683afa8e] {
+.main-control[data-v-f388bd37] {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.main-control button[data-v-683afa8e] {
+.main-control button[data-v-f388bd37] {
   padding: 12px 20px;
   border-radius: 4px;
   outline: none;
   border: none;
   font-size: 20px;
 }
-.main-tip[data-v-683afa8e] {
+.main-tip[data-v-f388bd37] {
   text-align: center;
   font-size: 20px;
   margin-top: 30px;
 }
-.main-tip > span[data-v-683afa8e] {
+.main-tip > span[data-v-f388bd37] {
   color: #f00;
 }
 .snake[data-v-887dcffc] {
@@ -2111,71 +2115,68 @@ button {
 .control > span.check[data-v-16693159] {
   background-color: aquamarine;
 }
-.alert[data-v-dce63947] {
+.alert[data-v-5800bc5c] {
   text-align: center;
   color: #000;
   margin-top: 20px;
   font-size: 22px;
 }
-.main[data-v-dce63947] {
+.main[data-v-5800bc5c] {
   width: 100%;
   max-width: 375px;
   min-width: 375px;
   margin: 10px auto;
   overflow: hidden;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
-.main .canvas-box[data-v-dce63947] {
+.main .canvas-box[data-v-5800bc5c] {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 12px 0;
 }
-.main .canvas-box canvas[data-v-dce63947] {
+.main .canvas-box canvas[data-v-5800bc5c] {
   border: 1px solid #000;
 }
-.main-count[data-v-dce63947] {
+.main-count[data-v-5800bc5c] {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: 20px auto;
 }
-.main-count .snakeList-length-0[data-v-dce63947] {
+.main-count .snakeList-length-0[data-v-5800bc5c] {
   color: #00f;
 }
-.main-count .snakeList-length-1[data-v-dce63947] {
+.main-count .snakeList-length-1[data-v-5800bc5c] {
   color: #0f0;
 }
-.main-count .snakeList-length-2[data-v-dce63947] {
+.main-count .snakeList-length-2[data-v-5800bc5c] {
   color: #f00;
 }
-.main-count button[data-v-dce63947] {
+.main-count button[data-v-5800bc5c] {
   padding: 8px 16px;
   border-radius: 4px;
   outline: none;
   border: none;
 }
-.main-control[data-v-dce63947] {
+.main-control[data-v-5800bc5c] {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.main-control button[data-v-dce63947] {
+.main-control button[data-v-5800bc5c] {
   padding: 12px 20px;
   border-radius: 4px;
   outline: none;
   border: none;
   font-size: 20px;
 }
-.main-tip[data-v-dce63947] {
+.main-tip[data-v-5800bc5c] {
   text-align: center;
   font-size: 20px;
   margin-top: 30px;
 }
-.main-tip > span[data-v-dce63947] {
+.main-tip > span[data-v-5800bc5c] {
   color: #f00;
 }
 .main[data-v-40f9ffec] {

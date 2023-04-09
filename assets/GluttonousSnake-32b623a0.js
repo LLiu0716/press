@@ -2,7 +2,7 @@ import { c as defineComponent, r as ref, B as watch, o as onMounted, n as onBefo
 import Snake from "./Snake-b2035f7a.js";
 import Control from "./Control-9b65d1b7.js";
 import Alert from "./Alert-2c06a393.js";
-const _withScopeId = (n) => (pushScopeId("data-v-683afa8e"), n = n(), popScopeId(), n);
+const _withScopeId = (n) => (pushScopeId("data-v-f388bd37"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "main" };
 const _hoisted_2 = { class: "main-count" };
 const _hoisted_3 = {
@@ -309,8 +309,8 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const GluttonousSnake_vue_vue_type_style_index_0_scoped_683afa8e_lang = "";
-const GluttonousSnake = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-683afa8e"], ["__file", "GluttonousSnake.vue"]]);
+const GluttonousSnake_vue_vue_type_style_index_0_scoped_f388bd37_lang = "";
+const GluttonousSnake = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-f388bd37"], ["__file", "GluttonousSnake.vue"]]);
 export {
   GluttonousSnake as default
 };
