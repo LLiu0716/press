@@ -1,7 +1,7 @@
 import { c as defineComponent, r as ref, h as computed, o as onMounted, p as openBlock, q as createElementBlock, R as createBaseVNode, v as createTextVNode, x as normalizeClass, w as toDisplayString, O as createVNode, W as withCtx, P as Fragment, aa as pushScopeId, ab as popScopeId, _ as _export_sfc } from "./framework-c611892d.js";
 import Control from "./Control-9b65d1b7.js";
 import Alert from "./Alert-2c06a393.js";
-const _withScopeId = (n) => (pushScopeId("data-v-5800bc5c"), n = n(), popScopeId(), n);
+const _withScopeId = (n) => (pushScopeId("data-v-82afbc54"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "main" };
 const _hoisted_2 = { class: "canvas-box" };
 const _hoisted_3 = { class: "main-count" };
@@ -280,8 +280,8 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const GluttonousSnakeCanvas_vue_vue_type_style_index_0_scoped_5800bc5c_lang = "";
-const GluttonousSnakeCanvas = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-5800bc5c"], ["__file", "GluttonousSnakeCanvas.vue"]]);
+const GluttonousSnakeCanvas_vue_vue_type_style_index_0_scoped_82afbc54_lang = "";
+const GluttonousSnakeCanvas = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-82afbc54"], ["__file", "GluttonousSnakeCanvas.vue"]]);
 export {
   GluttonousSnakeCanvas as default
 };
