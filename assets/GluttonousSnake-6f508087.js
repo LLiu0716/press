@@ -1,7 +1,7 @@
-import { c as defineComponent, r as ref, B as watch, o as onMounted, n as onBeforeUnmount, p as openBlock, q as createElementBlock, R as createBaseVNode, y as normalizeStyle, P as Fragment, Q as renderList, v as createTextVNode, x as normalizeClass, w as toDisplayString, O as createVNode, W as withCtx, a9 as pushScopeId, aa as popScopeId, V as createBlock, _ as _export_sfc } from "./framework-f3b08abd.js";
-import Snake from "./Snake-c79073d3.js";
-import Control from "./Control-63fa8415.js";
-import Alert from "./Alert-4a01cd8a.js";
+import { c as defineComponent, r as ref, B as watch, o as onMounted, n as onBeforeUnmount, p as openBlock, q as createElementBlock, R as createBaseVNode, y as normalizeStyle, P as Fragment, Q as renderList, v as createTextVNode, x as normalizeClass, w as toDisplayString, O as createVNode, W as withCtx, aa as pushScopeId, ab as popScopeId, V as createBlock, _ as _export_sfc } from "./framework-c611892d.js";
+import Snake from "./Snake-b2035f7a.js";
+import Control from "./Control-9b65d1b7.js";
+import Alert from "./Alert-2c06a393.js";
 const _withScopeId = (n) => (pushScopeId("data-v-683afa8e"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "main" };
 const _hoisted_2 = { class: "main-count" };

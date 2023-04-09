@@ -1,4 +1,4 @@
-import { c as defineComponent, p as openBlock, q as createElementBlock, x as normalizeClass, y as normalizeStyle, _ as _export_sfc } from "./framework-f3b08abd.js";
+import { c as defineComponent, p as openBlock, q as createElementBlock, x as normalizeClass, y as normalizeStyle, _ as _export_sfc } from "./framework-c611892d.js";
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "Snake",
   props: {

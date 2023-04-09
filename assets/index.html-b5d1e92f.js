@@ -1,4 +1,0 @@
-const data = JSON.parse('{"key":"v-57febeae","path":"/game/mine-clearance/","title":"使用 vue3 实现经典游戏之扫雷","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"使用 vue3 实现经典游戏之扫雷","description":"Vue3,扫雷,经典游戏,代码"},"headers":[{"level":2,"title":"经典游戏之扫雷","slug":"经典游戏之扫雷","link":"#经典游戏之扫雷","children":[]},{"level":2,"title":"提示","slug":"提示","link":"#提示","children":[]},{"level":2,"title":"完整代码","slug":"完整代码","link":"#完整代码","children":[{"level":3,"title":"游戏主页面","slug":"游戏主页面","link":"#游戏主页面","children":[]},{"level":3,"title":"雷页面","slug":"雷页面","link":"#雷页面","children":[]},{"level":3,"title":"排雷逻辑","slug":"排雷逻辑","link":"#排雷逻辑","children":[]}]}],"git":{"updatedTime":1680985404000,"contributors":[{"name":"liu","email":"450441058@qq.com","commits":1}]},"filePathRelative":"game/mine-clearance/README.md"}');
-export {
-  data
-};

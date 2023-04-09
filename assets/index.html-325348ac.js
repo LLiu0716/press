@@ -1,7 +1,7 @@
-import { _ as _export_sfc, N as resolveComponent, p as openBlock, q as createElementBlock, R as createBaseVNode, v as createTextVNode, O as createVNode } from "./framework-f3b08abd.js";
+import { _ as _export_sfc, N as resolveComponent, p as openBlock, q as createElementBlock, R as createBaseVNode, v as createTextVNode, O as createVNode } from "./framework-c611892d.js";
 const _sfc_main = {};
 const _hoisted_1 = {
-  href: "https://zh-hans.reactjs.org/",
+  href: "https://cn.vuejs.org/",
   target: "_blank",
   rel: "noopener noreferrer"
 };
@@ -10,7 +10,7 @@ function _sfc_render(_ctx, _cache) {
   return openBlock(), createElementBlock("div", null, [
     createBaseVNode("p", null, [
       createBaseVNode("a", _hoisted_1, [
-        createTextVNode("React 中文官网"),
+        createTextVNode("Vue 中文官网"),
         createVNode(_component_ExternalLinkIcon)
       ])
     ])

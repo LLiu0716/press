@@ -1,4 +1,4 @@
-import { s as setupDevtoolsPlugin, B as watch } from "./framework-f3b08abd.js";
+import { s as setupDevtoolsPlugin, B as watch } from "./framework-c611892d.js";
 var PLUGIN_ID = "org.vuejs.vuepress";
 var PLUGIN_LABEL = "VuePress";
 var PLUGIN_COMPONENT_STATE_TYPE = PLUGIN_LABEL;

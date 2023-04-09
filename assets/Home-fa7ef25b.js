@@ -1,26 +1,16 @@
-import { c as defineComponent, r as ref, o as onMounted, p as openBlock, q as createElementBlock, P as Fragment, Q as renderList, R as createBaseVNode, w as toDisplayString, _ as _export_sfc } from "./framework-f3b08abd.js";
-import { a as axios } from "./index-2d77be42.js";
+import { c as defineComponent, r as ref, p as openBlock, q as createElementBlock, P as Fragment, Q as renderList, R as createBaseVNode, w as toDisplayString, _ as _export_sfc } from "./framework-c611892d.js";
+import "./index-2d77be42.js";
 const _hoisted_1 = /* @__PURE__ */ createBaseVNode(
   "h1",
   null,
-  "这是 OtherComponent 页",
+  "这是 HOME 页",
   -1
   /* HOISTED */
 );
 const _sfc_main = /* @__PURE__ */ defineComponent({
-  __name: "OtherComponent",
+  __name: "Home",
   setup(__props) {
     const list = ref([]);
-    onMounted(() => {
-      getInfo();
-    });
-    async function getInfo() {
-      try {
-        const res = await axios.get("http://localhost:3000/list");
-        list.value = res.data;
-      } catch (error) {
-      }
-    }
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("main", null, [
         _hoisted_1,
@@ -45,7 +35,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const OtherComponent = /* @__PURE__ */ _export_sfc(_sfc_main, [["__file", "OtherComponent.vue"]]);
+const Home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__file", "Home.vue"]]);
 export {
-  OtherComponent as default
+  Home as default
 };

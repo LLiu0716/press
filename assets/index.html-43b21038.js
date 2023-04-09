@@ -1,4 +1,4 @@
-import { c as defineComponent, N as resolveComponent, p as openBlock, q as createElementBlock, O as createVNode, _ as _export_sfc } from "./framework-f3b08abd.js";
+import { c as defineComponent, N as resolveComponent, p as openBlock, q as createElementBlock, O as createVNode, _ as _export_sfc } from "./framework-c611892d.js";
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "index.html",
   setup(__props) {
@@ -12,6 +12,11 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
         id: "2",
         name: "贪吃蛇",
         href: "gluttonous-snake"
+      },
+      {
+        id: "3",
+        name: "贪吃蛇 画布版",
+        href: "gluttonous-snake-canvas"
       }
     ];
     return (_ctx, _cache) => {

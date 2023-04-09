@@ -1,4 +1,4 @@
-import { r as ref, o as onMounted, B as watch, c as defineComponent, n as onBeforeUnmount, A as unref, p as openBlock, q as createElementBlock, P as Fragment, Q as renderList, S as createCommentVNode, R as createBaseVNode, w as toDisplayString, x as normalizeClass, _ as _export_sfc } from "./framework-f3b08abd.js";
+import { r as ref, o as onMounted, B as watch, c as defineComponent, n as onBeforeUnmount, A as unref, p as openBlock, q as createElementBlock, P as Fragment, Q as renderList, S as createCommentVNode, R as createBaseVNode, w as toDisplayString, x as normalizeClass, _ as _export_sfc } from "./framework-c611892d.js";
 const bast = () => {
   const resize = ref(0);
   const isH5 = ref(false);
@@ -21,15 +21,11 @@ const bast = () => {
   const outWatch = watch(resize, (value) => {
     const isAndroid = window.navigator.userAgent.match(/android/gi);
     const isIPhone = window.navigator.userAgent.match(/iphone/gi);
-    console.log("isAndroid ", isAndroid);
-    console.log("isIPhone ", isIPhone);
-    console.log("value <= 750 ", value <= 750);
     if (isIPhone || isAndroid || value <= 750) {
       isH5.value = true;
     } else {
       isH5.value = false;
     }
-    console.log("isH5", isH5.value);
   });
   return {
     // 监听窗口大小

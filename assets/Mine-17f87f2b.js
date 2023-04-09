@@ -1,4 +1,4 @@
-import { c as defineComponent, B as watch, r as ref, o as onMounted, p as openBlock, q as createElementBlock, R as createBaseVNode, x as normalizeClass, P as Fragment, Q as renderList, v as createTextVNode, w as toDisplayString, $ as withDirectives, a0 as vShow, S as createCommentVNode, ac as withModifiers, a9 as pushScopeId, aa as popScopeId, _ as _export_sfc } from "./framework-f3b08abd.js";
+import { c as defineComponent, B as watch, r as ref, o as onMounted, p as openBlock, q as createElementBlock, R as createBaseVNode, x as normalizeClass, P as Fragment, Q as renderList, v as createTextVNode, w as toDisplayString, $ as withDirectives, a0 as vShow, S as createCommentVNode, ac as withModifiers, aa as pushScopeId, ab as popScopeId, _ as _export_sfc } from "./framework-c611892d.js";
 const mine = () => {
   const data = {
     squares: [],
